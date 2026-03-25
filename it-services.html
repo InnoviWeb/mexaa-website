@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IT-Services von MEXAA-IT GmbH: Managed Service, IT-Outsourcing, IT-Support, IT-Rollout und strategische IT-Beratung für den Mittelstand." />
+  <title>IT-Services – MEXAA-IT GmbH</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="mexa.logo1.jpg" alt="MEXAA-IT GmbH" />
+    </a>
+    <ul class="nav-menu">
+      <li class="nav-item" data-page="it-services">
+        <span class="nav-link">IT-Services <span class="chevron">▾</span></span>
+        <div class="dropdown">
+          <a href="#managed-service" class="dropdown-item"><span class="item-icon">🔧</span><span class="item-text">Managed Service</span><span class="item-arrow">›</span></a>
+          <a href="#it-outsourcing"  class="dropdown-item"><span class="item-icon">👥</span><span class="item-text">IT-Outsourcing</span><span class="item-arrow">›</span></a>
+          <a href="#it-support"      class="dropdown-item"><span class="item-icon">🛠</span><span class="item-text">IT-Service &amp; Support</span><span class="item-arrow">›</span></a>
+          <a href="#it-rollout"      class="dropdown-item"><span class="item-icon">🚀</span><span class="item-text">IT-Rollout</span><span class="item-arrow">›</span></a>
+          <a href="#it-beratung"     class="dropdown-item"><span class="item-icon">💡</span><span class="item-text">IT-Beratung</span><span class="item-arrow">›</span></a>
+        </div>
+      </li>
+      <li class="nav-item" data-page="solutions">
+        <span class="nav-link">Solutions <span class="chevron">▾</span></span>
+        <div class="dropdown">
+          <a href="solutions.html#microsoft365"      class="dropdown-item"><span class="item-icon">📊</span><span class="item-text">Microsoft 365</span><span class="item-arrow">›</span></a>
+          <a href="solutions.html#azure"             class="dropdown-item"><span class="item-icon">☁️</span><span class="item-text">Azure Infrastruktur</span><span class="item-arrow">›</span></a>
+          <a href="solutions.html#intune"            class="dropdown-item"><span class="item-icon">🔒</span><span class="item-text">Microsoft Intune</span><span class="item-arrow">›</span></a>
+          <a href="solutions.html#client-management" class="dropdown-item"><span class="item-icon">💻</span><span class="item-text">Client Management</span><span class="item-arrow">›</span></a>
+          <a href="solutions.html#cloud-telefonie"   class="dropdown-item"><span class="item-icon">📞</span><span class="item-text">Cloud Telefonie</span><span class="item-arrow">›</span></a>
+          <a href="solutions.html#ki-loesungen"      class="dropdown-item"><span class="item-icon">🤖</span><span class="item-text">KI-Lösungen</span><span class="item-arrow">›</span></a>
+          <a href="solutions.html#workshops"         class="dropdown-item"><span class="item-icon">🎓</span><span class="item-text">Workshops &amp; Schulungen</span><span class="item-arrow">›</span></a>
+        </div>
+      </li>
+      <li class="nav-item" data-page="unternehmen,kontakt">
+        <span class="nav-link">Unternehmen <span class="chevron">▾</span></span>
+        <div class="dropdown">
+          <a href="unternehmen.html#ueber-uns" class="dropdown-item"><span class="item-icon">🏢</span><span class="item-text">Über uns</span><span class="item-arrow">›</span></a>
+          <a href="unternehmen.html#karriere"  class="dropdown-item"><span class="item-icon">💼</span><span class="item-text">Karriere</span><span class="item-arrow">›</span></a>
+          <a href="unternehmen.html#soziales"  class="dropdown-item"><span class="item-icon">🤝</span><span class="item-text">Soziales Engagement</span><span class="item-arrow">›</span></a>
+          <a href="kontakt.html"              class="dropdown-item"><span class="item-icon">📬</span><span class="item-text">Kontakt</span><span class="item-arrow">›</span></a>
+        </div>
+      </li>
+    </ul>
+    <a href="kontakt.html" class="btn btn-primary nav-cta">Kontakt ↗</a>
+    <button class="hamburger" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="nav-mobile" id="nav-mobile">
+  <div class="mobile-section">
+    <div class="mobile-section-title">IT-Services</div>
+    <a href="#managed-service" class="mobile-link"><span class="mi">🔧</span> Managed Service</a>
+    <a href="#it-outsourcing"  class="mobile-link"><span class="mi">👥</span> IT-Outsourcing</a>
+    <a href="#it-support"      class="mobile-link"><span class="mi">🛠</span> IT-Service &amp; Support</a>
+    <a href="#it-rollout"      class="mobile-link"><span class="mi">🚀</span> IT-Rollout</a>
+    <a href="#it-beratung"     class="mobile-link"><span class="mi">💡</span> IT-Beratung</a>
+  </div>
+  <div class="mobile-section">
+    <div class="mobile-section-title">Solutions</div>
+    <a href="solutions.html#microsoft365"      class="mobile-link"><span class="mi">📊</span> Microsoft 365</a>
+    <a href="solutions.html#azure"             class="mobile-link"><span class="mi">☁️</span> Azure Infrastruktur</a>
+    <a href="solutions.html#intune"            class="mobile-link"><span class="mi">🔒</span> Microsoft Intune</a>
+    <a href="solutions.html#client-management" class="mobile-link"><span class="mi">💻</span> Client Management</a>
+    <a href="solutions.html#cloud-telefonie"   class="mobile-link"><span class="mi">📞</span> Cloud Telefonie</a>
+    <a href="solutions.html#ki-loesungen"      class="mobile-link"><span class="mi">🤖</span> KI-Lösungen</a>
+    <a href="solutions.html#workshops"         class="mobile-link"><span class="mi">🎓</span> Workshops &amp; Schulungen</a>
+  </div>
+  <div class="mobile-section">
+    <div class="mobile-section-title">Unternehmen</div>
+    <a href="unternehmen.html#ueber-uns" class="mobile-link"><span class="mi">🏢</span> Über uns</a>
+    <a href="unternehmen.html#karriere"  class="mobile-link"><span class="mi">💼</span> Karriere</a>
+    <a href="unternehmen.html#soziales"  class="mobile-link"><span class="mi">🤝</span> Soziales Engagement</a>
+    <a href="kontakt.html"              class="mobile-link"><span class="mi">📬</span> Kontakt</a>
+  </div>
+  <a href="kontakt.html" class="btn btn-primary mobile-cta-btn">Jetzt Kontakt aufnehmen ↗</a>
+</div>
+
+<!-- ============================================================
+     PAGE HERO
+     ============================================================ -->
+<div class="page-hero">
+  <div class="container">
+    <div class="page-hero-inner">
+      <nav class="breadcrumb">
+        <a href="index.html">Startseite</a>
+        <span class="sep">›</span>
+        <span>IT-Services</span>
+      </nav>
+      <h1>Unsere IT-Services</h1>
+      <p>Von proaktivem Managed Service bis zur strategischen IT-Beratung –
+         wir decken das gesamte IT-Spektrum für Ihr Unternehmen ab.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SERVICE DETAILS
+     ============================================================ -->
+<section class="bg-white">
+  <div class="container">
+
+    <!-- 1. Managed Service -->
+    <div class="service-detail" id="managed-service">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">🔧</div>
+        <h2>Managed Service</h2>
+        <p>
+          Als Ihr Managed Service Provider übernehmen wir die vollständige Verantwortung für
+          den Betrieb, die Überwachung und die Weiterentwicklung Ihrer IT-Infrastruktur.
+          Proaktiv, verlässlich und rund um die Uhr.
+        </p>
+        <p>
+          Durch regelmäßiges Monitoring, automatisierte Patches und definierte SLAs
+          minimieren wir Ausfallzeiten und sorgen dafür, dass Ihre IT stets auf dem
+          neuesten Stand ist – ohne dass Sie sich darum kümmern müssen.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">24/7-Monitoring Ihrer gesamten IT-Infrastruktur</span>
+          <span class="service-feature">Proaktives Patch- und Update-Management</span>
+          <span class="service-feature">Definierte SLAs mit garantierten Reaktionszeiten</span>
+          <span class="service-feature">Monatliche Berichte &amp; Transparenz-Dashboard</span>
+          <span class="service-feature">Festpreismodell – keine überraschenden Kosten</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">🔧</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">🔧</div>
+          <h3>Managed Service</h3>
+          <p>Ihre IT in besten Händen – proaktiv, zuverlässig, transparent.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. IT-Outsourcing -->
+    <div class="service-detail reverse" id="it-outsourcing">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">👥</div>
+        <h2>IT-Outsourcing</h2>
+        <p>
+          Konzentrieren Sie sich auf Ihr Kerngeschäft – wir übernehmen Ihre gesamte IT.
+          Ob als Ergänzung zu Ihrem bestehenden Team oder als vollständige externe IT-Abteilung:
+          MEXAA-IT ist Ihr flexibler IT-Partner.
+        </p>
+        <p>
+          Unsere erfahrenen IT-Experten kennen die Anforderungen des deutschen Mittelstands
+          und liefern passgenaue Lösungen zu kalkulierbaren Kosten.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">Vollständige Übernahme der IT-Abteilung möglich</span>
+          <span class="service-feature">Flexibel skalierbar – von 5 bis 500 Arbeitsplätzen</span>
+          <span class="service-feature">Dedizierte Ansprechpartner &amp; persönliche Betreuung</span>
+          <span class="service-feature">Kostenreduktion durch Skaleneffekte</span>
+          <span class="service-feature">Fokus auf Ihr Kerngeschäft statt IT-Verwaltung</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">👥</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">👥</div>
+          <h3>IT-Outsourcing</h3>
+          <p>Ihre externe IT-Abteilung – flexibel, kosteneffizient, erfahren.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. IT-Service & Support -->
+    <div class="service-detail" id="it-support">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">🛠</div>
+        <h2>IT-Service &amp; Support</h2>
+        <p>
+          Schnelle Hilfe bei IT-Problemen – per Telefon, Remote oder direkt vor Ort.
+          Unser erfahrenes Support-Team steht Ihnen mit kurzen Reaktionszeiten zur Seite
+          und behebt Störungen schnell und effizient.
+        </p>
+        <p>
+          Vom einfachen Anwenderproblem bis zur komplexen Systemstörung: Wir analysieren,
+          priorisieren und lösen – damit Ihr Betrieb unterbrechungsfrei läuft.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">Helpdesk per Telefon, E-Mail &amp; Ticketsystem</span>
+          <span class="service-feature">Remote-Support in unter 15 Minuten</span>
+          <span class="service-feature">Vor-Ort-Service bundesweit</span>
+          <span class="service-feature">Klare Ticketpriorisierung &amp; Eskalationsprozesse</span>
+          <span class="service-feature">Lückenlose Dokumentation aller Vorfälle</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">🛠</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">🛠</div>
+          <h3>IT-Service &amp; Support</h3>
+          <p>Schnell, kompetent, persönlich – Ihr zuverlässiger IT-Helpdesk.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. IT-Rollout -->
+    <div class="service-detail reverse" id="it-rollout">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">🚀</div>
+        <h2>IT-Rollout</h2>
+        <p>
+          Ob 10 oder 1.000 Arbeitsplätze – wir planen und realisieren Ihre Hard- und Software-Rollouts
+          professionell, termingerecht und mit minimalem Aufwand für Ihr Unternehmen.
+        </p>
+        <p>
+          Mit bewährten Prozessen, standardisierten Images und zentralem Deployment sorgen
+          wir dafür, dass jeder Mitarbeiter optimal ausgestattet ist – schnell und reibungslos.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">Hardware-Rollout inkl. Beschaffung &amp; Logistik</span>
+          <span class="service-feature">Software-Deployment über zentrale Plattformen</span>
+          <span class="service-feature">Standardisierte Rollout-Prozesse &amp; Vorlagen</span>
+          <span class="service-feature">Migration von Daten &amp; Einstellungen</span>
+          <span class="service-feature">Endbenutzer-Einweisung &amp; Onboarding</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">🚀</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">🚀</div>
+          <h3>IT-Rollout</h3>
+          <p>Professionell, schnell und skalierbar – Rollouts die funktionieren.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. IT-Beratung -->
+    <div class="service-detail" id="it-beratung">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">💡</div>
+        <h2>IT-Beratung</h2>
+        <p>
+          Technologie ist nur so gut wie die Strategie dahinter. Unsere erfahrenen IT-Berater
+          analysieren Ihre aktuelle IT-Situation, identifizieren Optimierungspotenziale und
+          entwickeln eine maßgeschneiderte Roadmap für Ihre digitale Zukunft.
+        </p>
+        <p>
+          Von der IT-Strategie über Sicherheitskonzepte bis zur Cloud-Migration – wir beraten
+          Sie herstellerneutral und mit Blick auf Ihre individuellen Geschäftsziele.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">IT-Strategieentwicklung &amp; Roadmap-Planung</span>
+          <span class="service-feature">IT-Sicherheitsanalyse &amp; DSGVO-Compliance</span>
+          <span class="service-feature">Cloud-Readiness-Assessment</span>
+          <span class="service-feature">IT-Kostenanalyse &amp; Optimierungspotenziale</span>
+          <span class="service-feature">Herstellerneutrale Empfehlungen</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">💡</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">💡</div>
+          <h3>IT-Beratung</h3>
+          <p>Strategisch denken, pragmatisch handeln – Ihr Weg in die digitale Zukunft.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA
+     ============================================================ -->
+<section class="cta-section">
+  <div class="container">
+    <div class="fade-in">
+      <h2>Bereit für den nächsten Schritt?</h2>
+      <p>Lassen Sie uns in einem kostenlosen Erstgespräch herausfinden, welcher Service am besten zu Ihrem Unternehmen passt.</p>
+      <a href="kontakt.html" class="btn btn-primary btn-lg">Kostenlos beraten lassen ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="mexa.logo2.png" alt="MEXAA-IT Icon" class="footer-logo" />
+        <div class="footer-brand-name">MEXAA-IT GmbH</div>
+        <div class="footer-tagline">think for results!</div>
+        <p class="footer-desc">Ihr ganzheitlicher IT-Dienstleister für den deutschen Mittelstand.</p>
+      </div>
+      <div class="footer-col">
+        <h4>IT-Services</h4>
+        <nav class="footer-links">
+          <a href="#managed-service">Managed Service</a>
+          <a href="#it-outsourcing">IT-Outsourcing</a>
+          <a href="#it-support">IT-Service &amp; Support</a>
+          <a href="#it-rollout">IT-Lifecycle</a>
+          <a href="#it-beratung">IT-Beratung</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <nav class="footer-links">
+          <a href="solutions.html#azure">Azure Infrastruktur</a>
+          <a href="solutions.html#microsoft365">Microsoft 365</a>
+          <a href="solutions.html#intune">Microsoft Intune</a>
+          <a href="solutions.html#client-management">Client Management</a>
+          <a href="solutions.html#cloud-telefonie">Cloud Telefonie</a>
+          <a href="solutions.html#ki-loesungen">KI-Lösungen</a>
+          <a href="solutions.html#workshops">Workshops &amp; Schulungen</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h4>Unternehmen</h4>
+        <nav class="footer-links">
+          <a href="unternehmen.html#ueber-uns">Über uns</a>
+          <a href="unternehmen.html#karriere">Karriere</a>
+          <a href="unternehmen.html#soziales">Soziales Engagement</a>
+          <a href="kontakt.html">Kontakt</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h4>Social Media</h4>
+        <div class="footer-social">
+          <a href="#" class="social-link"><span class="social-icon">in</span> LinkedIn</a>
+          <a href="#" class="social-link"><span class="social-icon">📷</span> Instagram</a>
+          <a href="#" class="social-link"><span class="social-icon">𝕏</span> Twitter / X</a>
+        </div>
+        <a href="kontakt.html" class="btn btn-primary" style="font-size:13px;padding:10px 18px;">Fernwartung starten ↗</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 MEXAA-IT GmbH – Alle Rechte vorbehalten</span>
+      <nav class="footer-legal">
+        <a href="#">Impressum</a><a href="#">AGB</a>
+        <a href="#">Disclaimer</a><a href="#">Datenschutz</a><a href="#">Cookies</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

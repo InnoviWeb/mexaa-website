@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Microsoft 365, Azure, Intune, KI-Lösungen und mehr – das komplette Technology-Portfolio von MEXAA-IT GmbH." />
+  <title>Solutions – MEXAA-IT GmbH</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="mexa.logo1.jpg" alt="MEXAA-IT GmbH" />
+    </a>
+    <ul class="nav-menu">
+      <li class="nav-item" data-page="it-services">
+        <span class="nav-link">IT-Services <span class="chevron">▾</span></span>
+        <div class="dropdown">
+          <a href="it-services.html#managed-service" class="dropdown-item"><span class="item-icon">🔧</span><span class="item-text">Managed Service</span><span class="item-arrow">›</span></a>
+          <a href="it-services.html#it-outsourcing"  class="dropdown-item"><span class="item-icon">👥</span><span class="item-text">IT-Outsourcing</span><span class="item-arrow">›</span></a>
+          <a href="it-services.html#it-support"      class="dropdown-item"><span class="item-icon">🛠</span><span class="item-text">IT-Service &amp; Support</span><span class="item-arrow">›</span></a>
+          <a href="it-services.html#it-rollout"      class="dropdown-item"><span class="item-icon">🚀</span><span class="item-text">IT-Rollout</span><span class="item-arrow">›</span></a>
+          <a href="it-services.html#it-beratung"     class="dropdown-item"><span class="item-icon">💡</span><span class="item-text">IT-Beratung</span><span class="item-arrow">›</span></a>
+        </div>
+      </li>
+      <li class="nav-item" data-page="solutions">
+        <span class="nav-link">Solutions <span class="chevron">▾</span></span>
+        <div class="dropdown">
+          <a href="#microsoft365"      class="dropdown-item"><span class="item-icon">📊</span><span class="item-text">Microsoft 365</span><span class="item-arrow">›</span></a>
+          <a href="#azure"             class="dropdown-item"><span class="item-icon">☁️</span><span class="item-text">Azure Infrastruktur</span><span class="item-arrow">›</span></a>
+          <a href="#intune"            class="dropdown-item"><span class="item-icon">🔒</span><span class="item-text">Microsoft Intune</span><span class="item-arrow">›</span></a>
+          <a href="#client-management" class="dropdown-item"><span class="item-icon">💻</span><span class="item-text">Client Management</span><span class="item-arrow">›</span></a>
+          <a href="#cloud-telefonie"   class="dropdown-item"><span class="item-icon">📞</span><span class="item-text">Cloud Telefonie</span><span class="item-arrow">›</span></a>
+          <a href="#ki-loesungen"      class="dropdown-item"><span class="item-icon">🤖</span><span class="item-text">KI-Lösungen</span><span class="item-arrow">›</span></a>
+          <a href="#workshops"         class="dropdown-item"><span class="item-icon">🎓</span><span class="item-text">Workshops &amp; Schulungen</span><span class="item-arrow">›</span></a>
+        </div>
+      </li>
+      <li class="nav-item" data-page="unternehmen,kontakt">
+        <span class="nav-link">Unternehmen <span class="chevron">▾</span></span>
+        <div class="dropdown">
+          <a href="unternehmen.html#ueber-uns" class="dropdown-item"><span class="item-icon">🏢</span><span class="item-text">Über uns</span><span class="item-arrow">›</span></a>
+          <a href="unternehmen.html#karriere"  class="dropdown-item"><span class="item-icon">💼</span><span class="item-text">Karriere</span><span class="item-arrow">›</span></a>
+          <a href="unternehmen.html#soziales"  class="dropdown-item"><span class="item-icon">🤝</span><span class="item-text">Soziales Engagement</span><span class="item-arrow">›</span></a>
+          <a href="kontakt.html"              class="dropdown-item"><span class="item-icon">📬</span><span class="item-text">Kontakt</span><span class="item-arrow">›</span></a>
+        </div>
+      </li>
+    </ul>
+    <a href="kontakt.html" class="btn btn-primary nav-cta">Kontakt ↗</a>
+    <button class="hamburger" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="nav-mobile" id="nav-mobile">
+  <div class="mobile-section">
+    <div class="mobile-section-title">IT-Services</div>
+    <a href="it-services.html#managed-service"  class="mobile-link"><span class="mi">🔧</span> Managed Service</a>
+    <a href="it-services.html#it-outsourcing"   class="mobile-link"><span class="mi">👥</span> IT-Outsourcing</a>
+    <a href="it-services.html#it-support"       class="mobile-link"><span class="mi">🛠</span> IT-Service &amp; Support</a>
+    <a href="it-services.html#it-rollout"       class="mobile-link"><span class="mi">🚀</span> IT-Rollout</a>
+    <a href="it-services.html#it-beratung"      class="mobile-link"><span class="mi">💡</span> IT-Beratung</a>
+  </div>
+  <div class="mobile-section">
+    <div class="mobile-section-title">Solutions</div>
+    <a href="#microsoft365"      class="mobile-link"><span class="mi">📊</span> Microsoft 365</a>
+    <a href="#azure"             class="mobile-link"><span class="mi">☁️</span> Azure Infrastruktur</a>
+    <a href="#intune"            class="mobile-link"><span class="mi">🔒</span> Microsoft Intune</a>
+    <a href="#client-management" class="mobile-link"><span class="mi">💻</span> Client Management</a>
+    <a href="#cloud-telefonie"   class="mobile-link"><span class="mi">📞</span> Cloud Telefonie</a>
+    <a href="#ki-loesungen"      class="mobile-link"><span class="mi">🤖</span> KI-Lösungen</a>
+    <a href="#workshops"         class="mobile-link"><span class="mi">🎓</span> Workshops &amp; Schulungen</a>
+  </div>
+  <div class="mobile-section">
+    <div class="mobile-section-title">Unternehmen</div>
+    <a href="unternehmen.html#ueber-uns" class="mobile-link"><span class="mi">🏢</span> Über uns</a>
+    <a href="unternehmen.html#karriere"  class="mobile-link"><span class="mi">💼</span> Karriere</a>
+    <a href="unternehmen.html#soziales"  class="mobile-link"><span class="mi">🤝</span> Soziales Engagement</a>
+    <a href="kontakt.html"              class="mobile-link"><span class="mi">📬</span> Kontakt</a>
+  </div>
+  <a href="kontakt.html" class="btn btn-primary mobile-cta-btn">Jetzt Kontakt aufnehmen ↗</a>
+</div>
+
+<!-- ============================================================
+     PAGE HERO
+     ============================================================ -->
+<div class="page-hero">
+  <div class="container">
+    <div class="page-hero-inner">
+      <nav class="breadcrumb">
+        <a href="index.html">Startseite</a>
+        <span class="sep">›</span>
+        <span>Solutions</span>
+      </nav>
+      <h1>Unsere Technologie-Lösungen</h1>
+      <p>Modernste Microsoft- und Cloud-Plattformen, professionell implementiert und
+         langfristig betreut – für maximale Effizienz in Ihrem Unternehmen.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SOLUTIONS ÜBERSICHT
+     ============================================================ -->
+<section class="bg-white">
+  <div class="container">
+    <div class="section-header centered fade-in">
+      <span class="section-label">Alle Lösungen im Überblick</span>
+      <h2 class="section-title">Das komplette Microsoft-Ökosystem</h2>
+      <p class="section-subtitle">
+        Als zertifizierter Microsoft Partner decken wir das gesamte Spektrum moderner
+        Cloud- und Workplace-Technologien ab.
+      </p>
+    </div>
+    <div class="solution-cards-grid">
+      <a href="#microsoft365" class="solution-card fade-in fade-in-delay-1">
+        <span class="solution-tag">Microsoft 365</span>
+        <div class="card-icon">📊</div>
+        <h3>Microsoft 365</h3>
+        <p>Die komplette Produktivitätssuite – E-Mail, Teams, Office, OneDrive und SharePoint nahtlos integriert.</p>
+        <span class="card-link">Details →</span>
+      </a>
+      <a href="#azure" class="solution-card fade-in fade-in-delay-2">
+        <span class="solution-tag">Cloud</span>
+        <div class="card-icon">☁️</div>
+        <h3>Azure Infrastruktur</h3>
+        <p>Skalierbare und sichere Cloud-Infrastruktur auf Microsoft Azure – von der Planung bis zum Betrieb.</p>
+        <span class="card-link">Details →</span>
+      </a>
+      <a href="#intune" class="solution-card fade-in fade-in-delay-3">
+        <span class="solution-tag">Security</span>
+        <div class="card-icon">🔒</div>
+        <h3>Microsoft Intune</h3>
+        <p>Zentrales Mobile Device Management für alle Endgeräte – sicher, kompatibel und einfach verwaltbar.</p>
+        <span class="card-link">Details →</span>
+      </a>
+      <a href="#client-management" class="solution-card fade-in fade-in-delay-4">
+        <span class="solution-tag">Endpoint</span>
+        <div class="card-icon">💻</div>
+        <h3>Client Management</h3>
+        <p>Automatisiertes Management aller Client-Geräte – Updates, Software-Verteilung und Compliance.</p>
+        <span class="card-link">Details →</span>
+      </a>
+      <a href="#cloud-telefonie" class="solution-card fade-in fade-in-delay-1">
+        <span class="solution-tag">Kommunikation</span>
+        <div class="card-icon">📞</div>
+        <h3>Cloud Telefonie</h3>
+        <p>Moderne VoIP-Telefonanlagen aus der Cloud – standortunabhängig, flexibel und kosteneffizient.</p>
+        <span class="card-link">Details →</span>
+      </a>
+      <a href="#ki-loesungen" class="solution-card fade-in fade-in-delay-2">
+        <span class="solution-tag">KI / Copilot</span>
+        <div class="card-icon">🤖</div>
+        <h3>KI-Lösungen</h3>
+        <p>Microsoft Copilot, KI-Automatisierung und intelligente Workflows für mehr Produktivität.</p>
+        <span class="card-link">Details →</span>
+      </a>
+      <a href="#workshops" class="solution-card fade-in fade-in-delay-3">
+        <span class="solution-tag">Training</span>
+        <div class="card-icon">🎓</div>
+        <h3>Workshops &amp; Schulungen</h3>
+        <p>Praxisnahe IT-Schulungen für Ihr Team – von Grundlagen bis zu fortgeschrittenen Themen.</p>
+        <span class="card-link">Details →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SOLUTION DETAILS
+     ============================================================ -->
+<section class="bg-light">
+  <div class="container">
+
+    <!-- Microsoft 365 -->
+    <div class="service-detail" id="microsoft365">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">📊</div>
+        <h2>Microsoft 365</h2>
+        <p>
+          Microsoft 365 ist die zentrale Produktivitätsplattform für modernes Arbeiten.
+          MEXAA-IT begleitet Sie von der Lizenzierung über die Migration bis zum laufenden Betrieb
+          und Support – für eine reibungslose Einführung und maximale Nutzung.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">Migration von Legacy-Systemen zu Exchange Online</span>
+          <span class="service-feature">Teams-Einrichtung &amp; Governance-Konzepte</span>
+          <span class="service-feature">SharePoint &amp; OneDrive Rollout</span>
+          <span class="service-feature">Lizenzoptimierung &amp; Kostenanalyse</span>
+          <span class="service-feature">Laufender Support &amp; Schulungen</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">📊</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">📊</div>
+          <h3>Microsoft 365</h3>
+          <p>Modernes Arbeiten, überall und auf jedem Gerät.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Azure -->
+    <div class="service-detail reverse" id="azure">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">☁️</div>
+        <h2>Azure Infrastruktur</h2>
+        <p>
+          Microsoft Azure bietet die zuverlässige, sichere und skalierbare Cloud-Plattform
+          für Ihre Unternehmens-IT. MEXAA-IT plant, migriert und betreibt Ihre Azure-Umgebung
+          nach Best Practices und höchsten Sicherheitsstandards.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">Azure Architecture Design &amp; Planung</span>
+          <span class="service-feature">Migration on-premise → Azure</span>
+          <span class="service-feature">Azure Virtual Desktop (AVD) Implementierung</span>
+          <span class="service-feature">Sicherheit &amp; Compliance (Defender for Cloud)</span>
+          <span class="service-feature">Kostenoptimierung &amp; FinOps</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">☁️</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">☁️</div>
+          <h3>Azure Infrastruktur</h3>
+          <p>Skalierbare Cloud-Power für Ihr Unternehmen.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intune -->
+    <div class="service-detail" id="intune">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">🔒</div>
+        <h2>Microsoft Intune</h2>
+        <p>
+          Mit Microsoft Intune verwalten Sie alle Endgeräte Ihres Unternehmens zentral –
+          Windows, macOS, iOS und Android. MEXAA-IT richtet Ihre Intune-Umgebung ein,
+          definiert Compliance-Richtlinien und sorgt für maximale Sicherheit.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">Geräteregistrierung &amp; Autopilot-Konfiguration</span>
+          <span class="service-feature">Compliance-Richtlinien &amp; Conditional Access</span>
+          <span class="service-feature">App-Management &amp; Software-Verteilung</span>
+          <span class="service-feature">BYOD-Konzepte &amp; Mobile Application Management</span>
+          <span class="service-feature">Zero Trust Sicherheitsarchitektur</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">🔒</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">🔒</div>
+          <h3>Microsoft Intune</h3>
+          <p>Alle Geräte. Eine Plattform. Maximale Sicherheit.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Client Management -->
+    <div class="service-detail reverse" id="client-management">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">💻</div>
+        <h2>Client Management</h2>
+        <p>
+          Automatisiertes, zentrales Management aller Client-Systeme in Ihrem Netzwerk.
+          Patches, Updates, Software-Verteilung und Konfigurationsmanagement – effizient
+          und revisionssicher, mit vollständiger Transparenz.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">Automatisches Patch- und Update-Management</span>
+          <span class="service-feature">Zentrale Software-Verteilung &amp; Deinstallation</span>
+          <span class="service-feature">Hardware- &amp; Software-Inventarisierung</span>
+          <span class="service-feature">Remote-Zugriff &amp; Fernwartung</span>
+          <span class="service-feature">Compliance-Reporting &amp; Dokumentation</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">💻</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">💻</div>
+          <h3>Client Management</h3>
+          <p>Alle Clients. Automatisiert. Immer aktuell.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cloud Telefonie -->
+    <div class="service-detail" id="cloud-telefonie">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">📞</div>
+        <h2>Cloud Telefonie</h2>
+        <p>
+          Verabschieden Sie sich von klassischen Telefonanlagen. Mit modernen Cloud-Telefonlösungen
+          – integriert in Microsoft Teams – telefonieren Ihre Mitarbeiter von überall,
+          flexibel und zu deutlich reduzierten Kosten.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">Microsoft Teams Phone &amp; Direct Routing</span>
+          <span class="service-feature">Migration von klassischen TK-Anlagen</span>
+          <span class="service-feature">Rufnummernportierung &amp; -verwaltung</span>
+          <span class="service-feature">Integration in bestehende CRM-Systeme</span>
+          <span class="service-feature">Schulung &amp; laufender Support</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">📞</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">📞</div>
+          <h3>Cloud Telefonie</h3>
+          <p>Kommunizieren ohne Grenzen – überall, jederzeit.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- KI-Lösungen -->
+    <div class="service-detail reverse" id="ki-loesungen">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">🤖</div>
+        <h2>KI-Lösungen</h2>
+        <p>
+          Künstliche Intelligenz ist kein Zukunftsthema mehr – sie ist jetzt. Mit Microsoft Copilot
+          und KI-gestützten Workflows helfen wir Ihnen, Routineaufgaben zu automatisieren,
+          Entscheidungen zu verbessern und die Produktivität zu steigern.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">Microsoft 365 Copilot Einführung &amp; Schulung</span>
+          <span class="service-feature">Power Automate Workflows &amp; KI-Automatisierung</span>
+          <span class="service-feature">Azure AI Services Integration</span>
+          <span class="service-feature">KI-Readiness Assessment für Ihr Unternehmen</span>
+          <span class="service-feature">Individuelle KI-Use-Cases &amp; Pilotprojekte</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">🤖</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">🤖</div>
+          <h3>KI-Lösungen</h3>
+          <p>Intelligenter arbeiten mit Microsoft Copilot und KI.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Workshops & Schulungen -->
+    <div class="service-detail" id="workshops">
+      <div class="service-text fade-in">
+        <div class="service-detail-icon">🎓</div>
+        <h2>Workshops &amp; Schulungen</h2>
+        <p>
+          Technologie entfaltet ihr volles Potenzial nur, wenn Ihre Mitarbeiter sie beherrschen.
+          Unsere praxisnahen Workshops und Schulungen vermitteln genau das Wissen, das Ihr Team
+          für den digitalen Alltag braucht.
+        </p>
+        <div class="service-features">
+          <span class="service-feature">Microsoft 365 Anwenderschulungen</span>
+          <span class="service-feature">IT-Security &amp; Phishing-Awareness-Trainings</span>
+          <span class="service-feature">Microsoft Copilot &amp; KI-Einführungsworkshops</span>
+          <span class="service-feature">Teams &amp; Remote-Work Best Practices</span>
+          <span class="service-feature">Individuelle Schulungskonzepte auf Anfrage</span>
+        </div>
+      </div>
+      <div class="service-visual fade-in fade-in-delay-2">
+        <div class="service-visual-bg">🎓</div>
+        <div class="service-visual-content">
+          <div class="icon-lg">🎓</div>
+          <h3>Workshops &amp; Schulungen</h3>
+          <p>Wissen, das im Alltag ankommt und den Unterschied macht.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="fade-in">
+      <h2>Welche Lösung passt zu Ihnen?</h2>
+      <p>Sprechen Sie mit unseren Experten und erhalten Sie eine individuelle Empfehlung.</p>
+      <a href="kontakt.html" class="btn btn-primary btn-lg">Kostenlose Beratung anfragen ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="mexa.logo2.png" alt="MEXAA-IT Icon" class="footer-logo" />
+        <div class="footer-brand-name">MEXAA-IT GmbH</div>
+        <div class="footer-tagline">think for results!</div>
+        <p class="footer-desc">Ihr ganzheitlicher IT-Dienstleister für den deutschen Mittelstand.</p>
+      </div>
+      <div class="footer-col">
+        <h4>IT-Services</h4>
+        <nav class="footer-links">
+          <a href="it-services.html#managed-service">Managed Service</a>
+          <a href="it-services.html#it-outsourcing">IT-Outsourcing</a>
+          <a href="it-services.html#it-support">IT-Service &amp; Support</a>
+          <a href="it-services.html#it-rollout">IT-Lifecycle</a>
+          <a href="it-services.html#it-beratung">IT-Beratung</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <nav class="footer-links">
+          <a href="#azure">Azure Infrastruktur</a>
+          <a href="#microsoft365">Microsoft 365</a>
+          <a href="#intune">Microsoft Intune</a>
+          <a href="#client-management">Client Management</a>
+          <a href="#cloud-telefonie">Cloud Telefonie</a>
+          <a href="#ki-loesungen">KI-Lösungen</a>
+          <a href="#workshops">Workshops &amp; Schulungen</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h4>Unternehmen</h4>
+        <nav class="footer-links">
+          <a href="unternehmen.html#ueber-uns">Über uns</a>
+          <a href="unternehmen.html#karriere">Karriere</a>
+          <a href="unternehmen.html#soziales">Soziales Engagement</a>
+          <a href="kontakt.html">Kontakt</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h4>Social Media</h4>
+        <div class="footer-social">
+          <a href="#" class="social-link"><span class="social-icon">in</span> LinkedIn</a>
+          <a href="#" class="social-link"><span class="social-icon">📷</span> Instagram</a>
+          <a href="#" class="social-link"><span class="social-icon">𝕏</span> Twitter / X</a>
+        </div>
+        <a href="kontakt.html" class="btn btn-primary" style="font-size:13px;padding:10px 18px;">Fernwartung starten ↗</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 MEXAA-IT GmbH – Alle Rechte vorbehalten</span>
+      <nav class="footer-legal">
+        <a href="#">Impressum</a><a href="#">AGB</a>
+        <a href="#">Disclaimer</a><a href="#">Datenschutz</a><a href="#">Cookies</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

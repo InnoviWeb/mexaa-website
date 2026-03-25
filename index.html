@@ -3,306 +3,607 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="mexaa – Ihr zuverlässiger IT-Partner für den Mittelstand. Cloud-Lösungen, IT-Support, Netzwerk & IT-Security aus einer Hand." />
-  <title>mexaa – IT-Systemhaus für den Mittelstand</title>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
-
+  <meta name="description" content="MEXAA-IT GmbH – Ihr ganzheitlicher IT-Dienstleister. Managed Service, IT-Outsourcing, Microsoft 365, Azure und mehr. Think for results!" />
+  <title>MEXAA-IT GmbH – Gemeinsam die digitale Zukunft gestalten</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ===== NAVIGATION ===== -->
-  <header class="nav-wrapper" id="navbar">
-    <nav class="nav container">
-      <a href="#" class="nav__logo" aria-label="mexaa Startseite">mexaa.</a>
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
 
-      <!-- Desktop Links -->
-      <ul class="nav__links" id="navLinks">
-        <li><a href="#leistungen" class="nav__link">Leistungen</a></li>
-        <li><a href="#ueber-uns" class="nav__link">Über uns</a></li>
-        <li><a href="#kontakt" class="nav__link">Kontakt</a></li>
-      </ul>
+    <!-- Logo -->
+    <a href="index.html" class="nav-logo">
+      <img src="mexa.logo1.jpg" alt="MEXAA-IT GmbH" />
+    </a>
 
-      <!-- Phone -->
-      <a href="tel:+4900000000000" class="nav__phone" aria-label="Telefonnummer anrufen">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.22 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.13 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z"/>
-        </svg>
-        <span>+49 XXX XXXXXXX</span>
+    <!-- Desktop Menu -->
+    <ul class="nav-menu">
+
+      <!-- IT-Services Dropdown -->
+      <li class="nav-item" data-page="it-services">
+        <span class="nav-link">IT-Services <span class="chevron">▾</span></span>
+        <div class="dropdown">
+          <a href="it-services.html#managed-service" class="dropdown-item">
+            <span class="item-icon">🔧</span>
+            <span class="item-text">Managed Service</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="it-services.html#it-outsourcing" class="dropdown-item">
+            <span class="item-icon">👥</span>
+            <span class="item-text">IT-Outsourcing</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="it-services.html#it-support" class="dropdown-item">
+            <span class="item-icon">🛠</span>
+            <span class="item-text">IT-Service &amp; Support</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="it-services.html#it-rollout" class="dropdown-item">
+            <span class="item-icon">🚀</span>
+            <span class="item-text">IT-Rollout</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="it-services.html#it-beratung" class="dropdown-item">
+            <span class="item-icon">💡</span>
+            <span class="item-text">IT-Beratung</span>
+            <span class="item-arrow">›</span>
+          </a>
+        </div>
+      </li>
+
+      <!-- Solutions Dropdown -->
+      <li class="nav-item" data-page="solutions">
+        <span class="nav-link">Solutions <span class="chevron">▾</span></span>
+        <div class="dropdown">
+          <a href="solutions.html#microsoft365" class="dropdown-item">
+            <span class="item-icon">📊</span>
+            <span class="item-text">Microsoft 365</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="solutions.html#azure" class="dropdown-item">
+            <span class="item-icon">☁️</span>
+            <span class="item-text">Azure Infrastruktur</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="solutions.html#intune" class="dropdown-item">
+            <span class="item-icon">🔒</span>
+            <span class="item-text">Microsoft Intune</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="solutions.html#client-management" class="dropdown-item">
+            <span class="item-icon">💻</span>
+            <span class="item-text">Client Management</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="solutions.html#cloud-telefonie" class="dropdown-item">
+            <span class="item-icon">📞</span>
+            <span class="item-text">Cloud Telefonie</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="solutions.html#ki-loesungen" class="dropdown-item">
+            <span class="item-icon">🤖</span>
+            <span class="item-text">KI-Lösungen</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="solutions.html#workshops" class="dropdown-item">
+            <span class="item-icon">🎓</span>
+            <span class="item-text">Workshops &amp; Schulungen</span>
+            <span class="item-arrow">›</span>
+          </a>
+        </div>
+      </li>
+
+      <!-- Unternehmen Dropdown -->
+      <li class="nav-item" data-page="unternehmen,kontakt">
+        <span class="nav-link">Unternehmen <span class="chevron">▾</span></span>
+        <div class="dropdown">
+          <a href="unternehmen.html#ueber-uns" class="dropdown-item">
+            <span class="item-icon">🏢</span>
+            <span class="item-text">Über uns</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="unternehmen.html#karriere" class="dropdown-item">
+            <span class="item-icon">💼</span>
+            <span class="item-text">Karriere</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="unternehmen.html#soziales" class="dropdown-item">
+            <span class="item-icon">🤝</span>
+            <span class="item-text">Soziales Engagement</span>
+            <span class="item-arrow">›</span>
+          </a>
+          <a href="kontakt.html" class="dropdown-item">
+            <span class="item-icon">📬</span>
+            <span class="item-text">Kontakt</span>
+            <span class="item-arrow">›</span>
+          </a>
+        </div>
+      </li>
+
+    </ul>
+
+    <!-- CTA Button -->
+    <a href="kontakt.html" class="btn btn-primary nav-cta">Kontakt ↗</a>
+
+    <!-- Hamburger (Mobile) -->
+    <button class="hamburger" aria-label="Menü öffnen">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div><!-- /nav-inner -->
+</nav>
+
+<!-- Mobile Navigation Overlay -->
+<div class="nav-mobile" id="nav-mobile">
+  <div class="mobile-section">
+    <div class="mobile-section-title">IT-Services</div>
+    <a href="it-services.html#managed-service"  class="mobile-link"><span class="mi">🔧</span> Managed Service</a>
+    <a href="it-services.html#it-outsourcing"   class="mobile-link"><span class="mi">👥</span> IT-Outsourcing</a>
+    <a href="it-services.html#it-support"       class="mobile-link"><span class="mi">🛠</span> IT-Service &amp; Support</a>
+    <a href="it-services.html#it-rollout"       class="mobile-link"><span class="mi">🚀</span> IT-Rollout</a>
+    <a href="it-services.html#it-beratung"      class="mobile-link"><span class="mi">💡</span> IT-Beratung</a>
+  </div>
+  <div class="mobile-section">
+    <div class="mobile-section-title">Solutions</div>
+    <a href="solutions.html#microsoft365"       class="mobile-link"><span class="mi">📊</span> Microsoft 365</a>
+    <a href="solutions.html#azure"              class="mobile-link"><span class="mi">☁️</span> Azure Infrastruktur</a>
+    <a href="solutions.html#intune"             class="mobile-link"><span class="mi">🔒</span> Microsoft Intune</a>
+    <a href="solutions.html#client-management"  class="mobile-link"><span class="mi">💻</span> Client Management</a>
+    <a href="solutions.html#cloud-telefonie"    class="mobile-link"><span class="mi">📞</span> Cloud Telefonie</a>
+    <a href="solutions.html#ki-loesungen"       class="mobile-link"><span class="mi">🤖</span> KI-Lösungen</a>
+    <a href="solutions.html#workshops"          class="mobile-link"><span class="mi">🎓</span> Workshops &amp; Schulungen</a>
+  </div>
+  <div class="mobile-section">
+    <div class="mobile-section-title">Unternehmen</div>
+    <a href="unternehmen.html#ueber-uns"        class="mobile-link"><span class="mi">🏢</span> Über uns</a>
+    <a href="unternehmen.html#karriere"         class="mobile-link"><span class="mi">💼</span> Karriere</a>
+    <a href="unternehmen.html#soziales"         class="mobile-link"><span class="mi">🤝</span> Soziales Engagement</a>
+    <a href="kontakt.html"                      class="mobile-link"><span class="mi">📬</span> Kontakt</a>
+  </div>
+  <a href="kontakt.html" class="btn btn-primary mobile-cta-btn">Jetzt Kontakt aufnehmen ↗</a>
+</div>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero">
+  <canvas id="particle-canvas"></canvas>
+
+  <div class="hero-content">
+    <div class="hero-badge">MEXAA · think for results!</div>
+    <h1>Gemeinsam die digitale Zukunft gestalten</h1>
+    <p class="hero-text">
+      Bereit für die digitale Revolution? MEXAA-IT ist Ihr verlässlicher Partner, wenn es darum geht,
+      Unternehmen und ihr Business erfolgreich zu machen. Als ganzheitlicher IT-Dienstleister
+      begleiten wir Unternehmen aus allen Branchen auf dem Weg in eine erfolgreiche digitale Zukunft.
+    </p>
+    <div class="hero-buttons">
+      <a href="kontakt.html"     class="btn btn-primary btn-lg">Kontakt aufnehmen ↗</a>
+      <a href="it-services.html" class="btn btn-outline  btn-lg">Unsere Services ↗</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span class="scroll-text">Scroll</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     TRUST BAR — KENNZAHLEN
+     ============================================================ -->
+<div class="trust-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item fade-in">
+        <span class="stat-number" data-count="200" data-suffix="+">0+</span>
+        <span class="stat-label">Abgeschlossene Projekte</span>
+      </div>
+      <div class="stat-item fade-in fade-in-delay-1">
+        <span class="stat-number" data-count="50" data-suffix="+">0+</span>
+        <span class="stat-label">Zufriedene Kunden</span>
+      </div>
+      <div class="stat-item fade-in fade-in-delay-2">
+        <span class="stat-number" data-count="10" data-suffix="+">0+</span>
+        <span class="stat-label">Jahre Erfahrung</span>
+      </div>
+      <div class="stat-item fade-in fade-in-delay-3">
+        <span class="stat-number" data-count="98" data-suffix="%">0%</span>
+        <span class="stat-label">Kundenzufriedenheit</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     IT-SERVICES
+     ============================================================ -->
+<section class="bg-light">
+  <div class="container">
+    <div class="section-header centered fade-in">
+      <span class="section-label">Unsere Leistungen</span>
+      <h2 class="section-title">Unsere IT-Services</h2>
+      <p class="section-subtitle">
+        Von der strategischen Beratung bis zum täglichen Betrieb – wir sind Ihr verlässlicher
+        IT-Partner für alle Herausforderungen des digitalen Alltags.
+      </p>
+    </div>
+
+    <div class="cards-grid cards-grid-5">
+      <a href="it-services.html#managed-service" class="card fade-in fade-in-delay-1">
+        <div class="card-icon">🔧</div>
+        <h3>Managed Service</h3>
+        <p>Proaktive Betreuung Ihrer IT-Infrastruktur – wir kümmern uns, damit Sie sich auf Ihr Business konzentrieren.</p>
+        <span class="card-link">Mehr erfahren →</span>
       </a>
+      <a href="it-services.html#it-outsourcing" class="card fade-in fade-in-delay-2">
+        <div class="card-icon">👥</div>
+        <h3>IT-Outsourcing</h3>
+        <p>Ihre komplette IT in unseren Händen – flexibel, kosteneffizient und zuverlässig.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+      <a href="it-services.html#it-support" class="card fade-in fade-in-delay-3">
+        <div class="card-icon">🛠</div>
+        <h3>IT-Service &amp; Support</h3>
+        <p>Schneller Helpdesk und Vor-Ort-Service für minimale Ausfallzeiten in Ihrem Unternehmen.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+      <a href="it-services.html#it-rollout" class="card fade-in fade-in-delay-4">
+        <div class="card-icon">🚀</div>
+        <h3>IT-Rollout</h3>
+        <p>Professionelle Planung und Durchführung von Hard- und Software-Rollouts in Ihrem Unternehmen.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+      <a href="it-services.html#it-beratung" class="card fade-in fade-in-delay-5">
+        <div class="card-icon">💡</div>
+        <h3>IT-Beratung</h3>
+        <p>Strategische IT-Beratung für Ihre digitale Transformation – individuell und zukunftsorientiert.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+    </div>
+  </div>
+</section>
 
-      <!-- Hamburger -->
-      <button class="nav__burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navLinks">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </nav>
-  </header>
+<!-- ============================================================
+     SOLUTIONS
+     ============================================================ -->
+<section class="bg-white">
+  <div class="container">
+    <div class="section-header centered fade-in">
+      <span class="section-label">Technologie-Portfolio</span>
+      <h2 class="section-title">Unsere Technologie-Lösungen</h2>
+      <p class="section-subtitle">
+        Modernste Microsoft- und Cloud-Technologien, nahtlos in Ihre Unternehmens-IT integriert
+        und professionell betreut.
+      </p>
+    </div>
 
-  <main>
+    <div class="cards-grid cards-grid-solutions">
+      <a href="solutions.html#microsoft365" class="card fade-in fade-in-delay-1">
+        <div class="card-icon">📊</div>
+        <h3>Microsoft 365</h3>
+        <p>Die komplette Produktivitätssuite für modernes Arbeiten – von E-Mail bis Teams.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+      <a href="solutions.html#azure" class="card fade-in fade-in-delay-2">
+        <div class="card-icon">☁️</div>
+        <h3>Azure Infrastruktur</h3>
+        <p>Skalierbare Cloud-Infrastruktur auf Microsoft Azure, maßgeschneidert für Ihr Unternehmen.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+      <a href="solutions.html#intune" class="card fade-in fade-in-delay-3">
+        <div class="card-icon">🔒</div>
+        <h3>Microsoft Intune</h3>
+        <p>Zentrales Gerätemanagement für alle Endgeräte in Ihrem Unternehmen – sicher und effizient.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+      <a href="solutions.html#client-management" class="card fade-in fade-in-delay-4">
+        <div class="card-icon">💻</div>
+        <h3>Client Management</h3>
+        <p>Automatisiertes Management aller Clients – Updates, Software, Sicherheit aus einer Hand.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+      <a href="solutions.html#cloud-telefonie" class="card fade-in fade-in-delay-1">
+        <div class="card-icon">📞</div>
+        <h3>Cloud Telefonie</h3>
+        <p>Moderne VoIP-Telefonanlagen aus der Cloud – flexibel, kosteneffizient und standortunabhängig.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+      <a href="solutions.html#ki-loesungen" class="card fade-in fade-in-delay-2">
+        <div class="card-icon">🤖</div>
+        <h3>KI-Lösungen</h3>
+        <p>Künstliche Intelligenz für Ihren Arbeitsalltag – Copilot, Automatisierung und smarte Workflows.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+      <a href="solutions.html#workshops" class="card fade-in fade-in-delay-3">
+        <div class="card-icon">🎓</div>
+        <h3>Workshops &amp; Schulungen</h3>
+        <p>Praxisnahe Schulungen für Ihr Team – von Microsoft 365 bis IT-Security-Awareness.</p>
+        <span class="card-link">Mehr erfahren →</span>
+      </a>
+    </div>
+  </div>
+</section>
 
-    <!-- ===== HERO ===== -->
-    <section class="hero" id="hero">
-      <div class="hero__bg-pattern" aria-hidden="true"></div>
-      <div class="container hero__content fade-in">
-        <span class="hero__eyebrow">IT-Systemhaus &amp; Managed Services</span>
-        <h1 class="hero__headline">Ihr IT-Partner<br />für den Mittelstand</h1>
-        <p class="hero__sub">Zuverlässige IT-Lösungen, Cloud-Services und IT-Support –<br class="hide-mobile" /> maßgeschneidert für Ihr Unternehmen.</p>
-        <div class="hero__ctas">
-          <a href="#kontakt" class="btn btn--primary">Kostenlos beraten lassen</a>
-          <a href="#leistungen" class="btn btn--outline-light">Leistungen entdecken</a>
+<!-- ============================================================
+     WARUM MEXAA — SPLIT LAYOUT
+     ============================================================ -->
+<section class="bg-light">
+  <div class="container">
+    <div class="split-section">
+
+      <!-- Links: Text + Checklist -->
+      <div class="split-text fade-in">
+        <span class="section-label">Unser Versprechen</span>
+        <h2 class="section-title">Warum MEXAA-IT?</h2>
+        <p class="section-subtitle">
+          Seit über 10 Jahren begleiten wir Unternehmen in ihrer digitalen Transformation.
+          Als zertifizierter Microsoft Partner bieten wir Ihnen nicht nur technische Expertise,
+          sondern auch persönliche Betreuung auf Augenhöhe.
+        </p>
+
+        <div class="checklist">
+          <div class="checklist-item">
+            <div class="check-icon">✓</div>
+            <span>Microsoft zertifizierter Partner</span>
+          </div>
+          <div class="checklist-item">
+            <div class="check-icon">✓</div>
+            <span>Persönliche Betreuung &amp; feste Ansprechpartner</span>
+          </div>
+          <div class="checklist-item">
+            <div class="check-icon">✓</div>
+            <span>Reaktionszeit unter 2 Stunden</span>
+          </div>
+          <div class="checklist-item">
+            <div class="check-icon">✓</div>
+            <span>Festpreisangebote ohne versteckte Kosten</span>
+          </div>
+          <div class="checklist-item">
+            <div class="check-icon">✓</div>
+            <span>Bundesweit verfügbar &amp; vor Ort</span>
+          </div>
         </div>
       </div>
-    </section>
 
-    <!-- ===== TRUST BAR ===== -->
-    <section class="trust" aria-label="Kennzahlen">
-      <div class="container trust__grid">
-        <div class="trust__item fade-in">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          <p class="trust__number">200+</p>
-          <p class="trust__label">abgeschlossene Projekte</p>
-        </div>
-        <div class="trust__divider" aria-hidden="true"></div>
-        <div class="trust__item fade-in" style="--delay: 0.1s">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          <p class="trust__number">10+</p>
-          <p class="trust__label">Jahre Erfahrung</p>
-        </div>
-        <div class="trust__divider" aria-hidden="true"></div>
-        <div class="trust__item fade-in" style="--delay: 0.2s">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          <p class="trust__number">98 %</p>
-          <p class="trust__label">Kundenzufriedenheit</p>
+      <!-- Rechts: Visual -->
+      <div class="split-visual fade-in fade-in-delay-2">
+        <div class="split-visual-inner">
+          <div class="big-icon">🏆</div>
+          <h3>Ausgezeichnete Qualität</h3>
+          <p>Zertifiziert, erfahren und leidenschaftlich für Ihren Erfolg.</p>
+          <div class="cert-badges">
+            <span class="cert-badge">Microsoft Partner</span>
+            <span class="cert-badge">ISO zertifiziert</span>
+            <span class="cert-badge">DSGVO konform</span>
+          </div>
         </div>
       </div>
-    </section>
 
-    <!-- ===== LEISTUNGEN ===== -->
-    <section class="services" id="leistungen">
-      <div class="container">
-        <div class="section-header fade-in">
-          <span class="section-eyebrow">Was wir tun</span>
-          <h2 class="section-title">Unsere IT-Leistungen</h2>
-          <p class="section-sub">Von der Beratung bis zum laufenden Betrieb – wir kümmern uns um Ihre IT, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.</p>
-        </div>
+    </div>
+  </div>
+</section>
 
-        <div class="services__grid">
+<!-- ============================================================
+     PARTNER-LOGOS MARQUEE
+     ============================================================ -->
+<div class="partners-section">
+  <div class="container">
+    <p class="partners-title">Unsere Technologie-Partner</p>
+  </div>
+  <div class="marquee-wrapper">
+    <div class="marquee-track">
+      <!-- Originale -->
+      <span class="partner-badge"><span class="partner-dot"></span>Microsoft</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Azure</span>
+      <span class="partner-badge"><span class="partner-dot"></span>HP</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Dell</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Cisco</span>
+      <span class="partner-badge"><span class="partner-dot"></span>VMware</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Veeam</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Lenovo</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Sophos</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Fortinet</span>
+      <!-- Duplikat für nahtloses Looping -->
+      <span class="partner-badge"><span class="partner-dot"></span>Microsoft</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Azure</span>
+      <span class="partner-badge"><span class="partner-dot"></span>HP</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Dell</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Cisco</span>
+      <span class="partner-badge"><span class="partner-dot"></span>VMware</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Veeam</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Lenovo</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Sophos</span>
+      <span class="partner-badge"><span class="partner-dot"></span>Fortinet</span>
+    </div>
+  </div>
+</div>
 
-          <!-- Karte 1 -->
-          <article class="service-card fade-in" style="--delay: 0s">
-            <div class="service-card__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-            </div>
-            <h3 class="service-card__title">IT-Support &amp; Helpdesk</h3>
-            <p class="service-card__text">Schnelle Hilfe bei IT-Störungen und technischen Fragen. Unser Helpdesk steht Ihnen per Telefon, E-Mail und Remote-Zugriff zur Verfügung.</p>
-          </article>
+<!-- ============================================================
+     TESTIMONIALS
+     ============================================================ -->
+<section class="bg-light testimonials-section">
+  <div class="container">
+    <div class="section-header centered fade-in">
+      <span class="section-label">Kundenstimmen</span>
+      <h2 class="section-title">Was unsere Kunden sagen</h2>
+    </div>
 
-          <!-- Karte 2 -->
-          <article class="service-card fade-in" style="--delay: 0.07s">
-            <div class="service-card__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-            </div>
-            <h3 class="service-card__title">Cloud-Lösungen</h3>
-            <p class="service-card__text">Migration, Betrieb und Optimierung Ihrer Cloud-Umgebung. Wir beraten Sie herstellerneutral und finden die passende Lösung für Ihre Anforderungen.</p>
-          </article>
+    <div class="testimonials-slider fade-in">
+      <div class="testimonials-track">
 
-          <!-- Karte 3 -->
-          <article class="service-card fade-in" style="--delay: 0.14s">
-            <div class="service-card__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
-            </div>
-            <h3 class="service-card__title">Netzwerk &amp; Infrastruktur</h3>
-            <p class="service-card__text">Planung, Aufbau und Wartung Ihrer gesamten IT-Infrastruktur – von der Verkabelung über Server bis hin zu WLAN und VPN.</p>
-          </article>
-
-          <!-- Karte 4 -->
-          <article class="service-card fade-in" style="--delay: 0.21s">
-            <div class="service-card__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            </div>
-            <h3 class="service-card__title">IT-Security</h3>
-            <p class="service-card__text">Schutz Ihrer Daten und Systeme durch moderne Sicherheitslösungen: Firewall, Endpoint Protection, Backup-Konzepte und Sicherheits-Audits.</p>
-          </article>
-
-          <!-- Karte 5 -->
-          <article class="service-card fade-in" style="--delay: 0.28s">
-            <div class="service-card__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
-            </div>
-            <h3 class="service-card__title">Modern Workplace</h3>
-            <p class="service-card__text">Einrichtung und Verwaltung von Microsoft 365, Teams, SharePoint und Intune – für mobiles, sicheres Arbeiten von überall.</p>
-          </article>
-
-          <!-- Karte 6 -->
-          <article class="service-card fade-in" style="--delay: 0.35s">
-            <div class="service-card__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-            </div>
-            <h3 class="service-card__title">IT-Beratung &amp; Strategie</h3>
-            <p class="service-card__text">Technologiebewertung, Digitalisierungsberatung und strategische IT-Planung – wir helfen Ihnen, die richtigen Entscheidungen für die Zukunft zu treffen.</p>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== ÜBER UNS ===== -->
-    <section class="about" id="ueber-uns">
-      <div class="container about__grid">
-
-        <div class="about__text fade-in">
-          <span class="section-eyebrow">Über mexaa</span>
-          <h2 class="section-title">Warum mexaa?</h2>
-          <p>mexaa ist ein inhabergeführtes IT-Systemhaus mit Sitz in Deutschland. Seit über 10 Jahren unterstützen wir kleine und mittelständische Unternehmen dabei, ihre IT-Infrastruktur sicher, effizient und zukunftsfähig zu gestalten.</p>
-          <p>Als regionaler Partner kennen wir die Herausforderungen des Mittelstands aus eigener Erfahrung. Wir denken langfristig, handeln pragmatisch und stehen mit vollem Einsatz an Ihrer Seite – von der ersten Beratung bis zum laufenden Betrieb.</p>
-          <a href="#kontakt" class="btn btn--primary about__cta">Beratungsgespräch vereinbaren</a>
-        </div>
-
-        <div class="about__bullets fade-in" style="--delay: 0.15s">
-          <ul class="checklist">
-            <li class="checklist__item">
-              <span class="checklist__icon" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              </span>
-              <div>
-                <strong>Persönliche Betreuung</strong>
-                <p>Fester Ansprechpartner für Ihr Unternehmen – kein anonymes Ticketsystem.</p>
+        <div class="testimonial">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              „MEXAA-IT hat unsere gesamte IT-Infrastruktur modernisiert und auf Azure migriert.
+              Die professionelle Begleitung und schnelle Reaktionszeit haben uns wirklich beeindruckt.
+              Ein verlässlicher Partner, dem wir blind vertrauen können."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">MK</div>
+              <div class="author-info">
+                <strong>Markus Köhler</strong>
+                <span>IT-Leiter, Industrieunternehmen Köln</span>
               </div>
-            </li>
-            <li class="checklist__item">
-              <span class="checklist__icon" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              </span>
-              <div>
-                <strong>Schnelle Reaktionszeiten</strong>
-                <p>Garantierte Reaktion innerhalb von 2 Stunden bei kritischen Störungen.</p>
-              </div>
-            </li>
-            <li class="checklist__item">
-              <span class="checklist__icon" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              </span>
-              <div>
-                <strong>Herstellerzertifizierungen</strong>
-                <p>Zertifizierter Microsoft-Partner mit aktuellen Qualifikationen unserer Techniker.</p>
-              </div>
-            </li>
-            <li class="checklist__item">
-              <span class="checklist__icon" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              </span>
-              <div>
-                <strong>Festpreisangebote</strong>
-                <p>Transparente Kosten ohne versteckte Gebühren – planbar und verlässlich.</p>
-              </div>
-            </li>
-            <li class="checklist__item">
-              <span class="checklist__icon" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              </span>
-              <div>
-                <strong>Proaktive IT-Betreuung</strong>
-                <p>Wir erkennen Probleme, bevor sie entstehen – dank kontinuierlichem Monitoring.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ===== KONTAKT ===== -->
-    <section class="contact" id="kontakt">
-      <div class="container contact__grid">
-
-        <!-- Formular -->
-        <div class="contact__form-wrap fade-in">
-          <span class="section-eyebrow section-eyebrow--light">Kontakt</span>
-          <h2 class="section-title section-title--light">Jetzt Kontakt aufnehmen</h2>
-          <p class="contact__intro">Beschreiben Sie kurz Ihr Anliegen – wir melden uns innerhalb von 24 Stunden bei Ihnen.</p>
-
-          <form class="contact-form" id="contactForm" novalidate>
-            <div class="form-group">
-              <label for="name" class="form-label">Ihr Name *</label>
-              <input type="text" id="name" name="name" class="form-input" placeholder="Max Mustermann" required autocomplete="name" />
             </div>
-            <div class="form-group">
-              <label for="email" class="form-label">E-Mail-Adresse *</label>
-              <input type="email" id="email" name="email" class="form-input" placeholder="max@firma.de" required autocomplete="email" />
-            </div>
-            <div class="form-group">
-              <label for="phone" class="form-label">Telefon (optional)</label>
-              <input type="tel" id="phone" name="phone" class="form-input" placeholder="+49 XXX XXXXXXX" autocomplete="tel" />
-            </div>
-            <div class="form-group">
-              <label for="message" class="form-label">Ihre Nachricht *</label>
-              <textarea id="message" name="message" class="form-input form-input--textarea" placeholder="Wie können wir Ihnen helfen?" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn--primary btn--full">
-              <span>Nachricht absenden</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-            </button>
-            <p class="form-success" id="formSuccess" aria-live="polite" hidden>Vielen Dank! Wir haben Ihre Nachricht erhalten und melden uns in Kürze.</p>
-          </form>
-        </div>
-
-        <!-- Kontaktinfos -->
-        <div class="contact__info fade-in" style="--delay: 0.15s">
-          <h3 class="contact__info-title">Kontaktdaten</h3>
-          <ul class="contact-details">
-            <li class="contact-details__item">
-              <span class="contact-details__icon" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              </span>
-              <address class="contact-details__text">
-                mexaa GmbH<br />
-                Musterstraße 1<br />
-                12345 Musterstadt
-              </address>
-            </li>
-            <li class="contact-details__item">
-              <span class="contact-details__icon" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.22 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.13 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z"/></svg>
-              </span>
-              <a href="tel:+4900000000000" class="contact-details__text contact-details__link">+49 XXX XXXXXXX</a>
-            </li>
-            <li class="contact-details__item">
-              <span class="contact-details__icon" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              </span>
-              <a href="mailto:info@mexaa.de" class="contact-details__text contact-details__link">info@mexaa.de</a>
-            </li>
-          </ul>
-
-          <div class="contact__badge">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            <p>Ihre Daten sind bei uns sicher. Wir verwenden sie ausschließlich zur Bearbeitung Ihrer Anfrage.</p>
           </div>
         </div>
 
+        <div class="testimonial">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              „Die Einführung von Microsoft 365 und Intune durch MEXAA-IT war reibungslos und schnell.
+              Unser Team arbeitet jetzt effizienter als je zuvor – mobil, sicher und kollaborativ.
+              Absolute Empfehlung für mittelständische Unternehmen."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SB</div>
+              <div class="author-info">
+                <strong>Sandra Becker</strong>
+                <span>Geschäftsführerin, Beratungshaus Frankfurt</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              „Mit MEXAA-IT als Managed Service Partner haben wir endlich Ruhe auf der IT-Seite.
+              Proaktives Monitoring, schneller Support und transparente Abrechnung – genau das,
+              was wir gesucht haben. Wir würden jederzeit wieder mit ihnen arbeiten."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">TW</div>
+              <div class="author-info">
+                <strong>Thomas Weinmann</strong>
+                <span>CFO, Handelsunternehmen München</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /track -->
+    </div><!-- /slider -->
+
+    <div class="slider-controls">
+      <button class="slider-btn prev" aria-label="Vorheriger">‹</button>
+      <div class="slider-dots">
+        <span class="slider-dot active"></span>
+        <span class="slider-dot"></span>
+        <span class="slider-dot"></span>
       </div>
-    </section>
+      <button class="slider-btn next" aria-label="Nächster">›</button>
+    </div>
 
-  </main>
+  </div>
+</section>
 
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <a href="#" class="footer__logo" aria-label="mexaa – zurück nach oben">mexaa.</a>
-      <p class="footer__copy">&copy; 2025 mexaa GmbH. Alle Rechte vorbehalten.</p>
-      <nav class="footer__links" aria-label="Footer Navigation">
-        <a href="#" class="footer__link">Impressum</a>
-        <a href="#" class="footer__link">Datenschutz</a>
+<!-- ============================================================
+     KONTAKT CTA
+     ============================================================ -->
+<section class="cta-section">
+  <div class="container">
+    <div class="fade-in">
+      <h2>Bereit für Ihre digitale Transformation?</h2>
+      <p>Lassen Sie uns gemeinsam herausfinden, wie wir Ihre IT auf das nächste Level bringen können.</p>
+      <a href="kontakt.html" class="btn btn-primary btn-lg">Jetzt kostenlos beraten lassen ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Spalte 1: Brand -->
+      <div class="footer-brand">
+        <img src="mexa.logo2.png" alt="MEXAA-IT Icon" class="footer-logo" />
+        <div class="footer-brand-name">MEXAA-IT GmbH</div>
+        <div class="footer-tagline">think for results!</div>
+        <p class="footer-desc">Ihr ganzheitlicher IT-Dienstleister für den deutschen Mittelstand.</p>
+      </div>
+
+      <!-- Spalte 2: IT-Services -->
+      <div class="footer-col">
+        <h4>IT-Services</h4>
+        <nav class="footer-links">
+          <a href="it-services.html#managed-service">Managed Service</a>
+          <a href="it-services.html#it-outsourcing">IT-Outsourcing</a>
+          <a href="it-services.html#it-support">IT-Service &amp; Support</a>
+          <a href="it-services.html#it-rollout">IT-Lifecycle</a>
+          <a href="it-services.html#it-beratung">IT-Beratung</a>
+        </nav>
+      </div>
+
+      <!-- Spalte 3: Solutions -->
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <nav class="footer-links">
+          <a href="solutions.html#azure">Azure Infrastruktur</a>
+          <a href="solutions.html#microsoft365">Microsoft 365</a>
+          <a href="solutions.html#intune">Microsoft Intune</a>
+          <a href="solutions.html#client-management">Client Management</a>
+          <a href="solutions.html#cloud-telefonie">Cloud Telefonie</a>
+          <a href="solutions.html#ki-loesungen">KI-Lösungen</a>
+          <a href="solutions.html#workshops">Workshops &amp; Schulungen</a>
+        </nav>
+      </div>
+
+      <!-- Spalte 4: Unternehmen -->
+      <div class="footer-col">
+        <h4>Unternehmen</h4>
+        <nav class="footer-links">
+          <a href="unternehmen.html#ueber-uns">Über uns</a>
+          <a href="unternehmen.html#karriere">Karriere</a>
+          <a href="unternehmen.html#soziales">Soziales Engagement</a>
+          <a href="kontakt.html">Kontakt</a>
+        </nav>
+      </div>
+
+      <!-- Spalte 5: Social + Fernwartung -->
+      <div class="footer-col">
+        <h4>Social Media</h4>
+        <div class="footer-social">
+          <a href="#" class="social-link">
+            <span class="social-icon">in</span> LinkedIn
+          </a>
+          <a href="#" class="social-link">
+            <span class="social-icon">📷</span> Instagram
+          </a>
+          <a href="#" class="social-link">
+            <span class="social-icon">𝕏</span> Twitter / X
+          </a>
+        </div>
+        <a href="kontakt.html" class="btn btn-primary" style="font-size:13px;padding:10px 18px;">Fernwartung starten ↗</a>
+      </div>
+
+    </div><!-- /footer-grid -->
+
+    <!-- Footer-Streifen -->
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 MEXAA-IT GmbH – Alle Rechte vorbehalten</span>
+      <nav class="footer-legal">
+        <a href="#">Impressum</a>
+        <a href="#">AGB</a>
+        <a href="#">Disclaimer</a>
+        <a href="#">Datenschutz</a>
+        <a href="#">Cookies</a>
       </nav>
     </div>
-  </footer>
+  </div>
+</footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
