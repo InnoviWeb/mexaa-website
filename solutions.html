@@ -3,445 +3,407 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Microsoft 365, Azure, Intune, KI-Lösungen und mehr – das komplette Technology-Portfolio von MEXAA-IT GmbH." />
   <title>Solutions – MEXAA-IT GmbH</title>
+  <meta name="description" content="Microsoft 365, Azure, Intune, Client Management, Cloud Telefonie, KI-Lösungen und Workshops – innovative Technologielösungen für den Mittelstand." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- ============================================================
-     NAVIGATION
-     ============================================================ -->
-<nav class="nav" id="nav">
+<!-- NAVIGATION -->
+<nav class="nav" id="main-nav">
   <div class="nav-inner">
-    <a href="index.html" class="nav-logo">
-      <img src="mexa.logo1.jpg" alt="MEXAA-IT GmbH" />
-    </a>
-    <ul class="nav-menu">
-      <li class="nav-item" data-page="it-services">
-        <span class="nav-link">IT-Services <span class="chevron">▾</span></span>
+    <a href="index.html" class="nav-logo"><img src="mexa.logo1.jpg" alt="MEXAA-IT GmbH" /></a>
+    <ul class="nav-links">
+      <li class="nav-item has-dropdown">
+        <a href="it-services.html" class="nav-link">IT-Services <svg class="chevron" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
         <div class="dropdown">
-          <a href="it-services.html#managed-service" class="dropdown-item"><span class="item-icon">🔧</span><span class="item-text">Managed Service</span><span class="item-arrow">›</span></a>
-          <a href="it-services.html#it-outsourcing"  class="dropdown-item"><span class="item-icon">👥</span><span class="item-text">IT-Outsourcing</span><span class="item-arrow">›</span></a>
-          <a href="it-services.html#it-support"      class="dropdown-item"><span class="item-icon">🛠</span><span class="item-text">IT-Service &amp; Support</span><span class="item-arrow">›</span></a>
-          <a href="it-services.html#it-rollout"      class="dropdown-item"><span class="item-icon">🚀</span><span class="item-text">IT-Rollout</span><span class="item-arrow">›</span></a>
-          <a href="it-services.html#it-beratung"     class="dropdown-item"><span class="item-icon">💡</span><span class="item-text">IT-Beratung</span><span class="item-arrow">›</span></a>
+          <a href="it-services.html#managed-service" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg></span><span class="dropdown-text">Managed Service</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="it-services.html#it-outsourcing" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/></svg></span><span class="dropdown-text">IT-Outsourcing</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="it-services.html#it-support" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/></svg></span><span class="dropdown-text">IT-Service &amp; Support</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="it-services.html#it-rollout" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/></svg></span><span class="dropdown-text">IT-Rollout</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="it-services.html#it-beratung" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"/></svg></span><span class="dropdown-text">IT-Beratung</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
         </div>
       </li>
-      <li class="nav-item" data-page="solutions">
-        <span class="nav-link">Solutions <span class="chevron">▾</span></span>
+      <li class="nav-item has-dropdown active">
+        <a href="solutions.html" class="nav-link">Solutions <svg class="chevron" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
         <div class="dropdown">
-          <a href="#microsoft365"      class="dropdown-item"><span class="item-icon">📊</span><span class="item-text">Microsoft 365</span><span class="item-arrow">›</span></a>
-          <a href="#azure"             class="dropdown-item"><span class="item-icon">☁️</span><span class="item-text">Azure Infrastruktur</span><span class="item-arrow">›</span></a>
-          <a href="#intune"            class="dropdown-item"><span class="item-icon">🔒</span><span class="item-text">Microsoft Intune</span><span class="item-arrow">›</span></a>
-          <a href="#client-management" class="dropdown-item"><span class="item-icon">💻</span><span class="item-text">Client Management</span><span class="item-arrow">›</span></a>
-          <a href="#cloud-telefonie"   class="dropdown-item"><span class="item-icon">📞</span><span class="item-text">Cloud Telefonie</span><span class="item-arrow">›</span></a>
-          <a href="#ki-loesungen"      class="dropdown-item"><span class="item-icon">🤖</span><span class="item-text">KI-Lösungen</span><span class="item-arrow">›</span></a>
-          <a href="#workshops"         class="dropdown-item"><span class="item-icon">🎓</span><span class="item-text">Workshops &amp; Schulungen</span><span class="item-arrow">›</span></a>
+          <a href="#microsoft-365" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"/></svg></span><span class="dropdown-text">Microsoft 365</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="#azure" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z"/></svg></span><span class="dropdown-text">Azure Infrastruktur</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="#intune" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/></svg></span><span class="dropdown-text">Microsoft Intune</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="#client-management" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0H3"/></svg></span><span class="dropdown-text">Client Management</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="#cloud-telefonie" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg></span><span class="dropdown-text">Cloud Telefonie</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="#ki-loesungen" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z"/></svg></span><span class="dropdown-text">KI-Lösungen</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="#workshops" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg></span><span class="dropdown-text">Workshops &amp; Schulungen</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
         </div>
       </li>
-      <li class="nav-item" data-page="unternehmen,kontakt">
-        <span class="nav-link">Unternehmen <span class="chevron">▾</span></span>
+      <li class="nav-item has-dropdown">
+        <a href="unternehmen.html" class="nav-link">Unternehmen <svg class="chevron" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
         <div class="dropdown">
-          <a href="unternehmen.html#ueber-uns" class="dropdown-item"><span class="item-icon">🏢</span><span class="item-text">Über uns</span><span class="item-arrow">›</span></a>
-          <a href="unternehmen.html#karriere"  class="dropdown-item"><span class="item-icon">💼</span><span class="item-text">Karriere</span><span class="item-arrow">›</span></a>
-          <a href="unternehmen.html#soziales"  class="dropdown-item"><span class="item-icon">🤝</span><span class="item-text">Soziales Engagement</span><span class="item-arrow">›</span></a>
-          <a href="kontakt.html"              class="dropdown-item"><span class="item-icon">📬</span><span class="item-text">Kontakt</span><span class="item-arrow">›</span></a>
+          <a href="unternehmen.html#ueber-uns" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"/></svg></span><span class="dropdown-text">Über uns</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="unternehmen.html#karriere" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"/></svg></span><span class="dropdown-text">Karriere</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="unternehmen.html#soziales" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg></span><span class="dropdown-text">Soziales Engagement</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
         </div>
       </li>
     </ul>
-    <a href="kontakt.html" class="btn btn-primary nav-cta">Kontakt ↗</a>
-    <button class="hamburger" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+    <a href="kontakt.html" class="nav-cta">Kontakt aufnehmen</a>
+    <button class="hamburger" aria-label="Menü"><span></span><span></span><span></span></button>
   </div>
 </nav>
 
-<div class="nav-mobile" id="nav-mobile">
-  <div class="mobile-section">
-    <div class="mobile-section-title">IT-Services</div>
-    <a href="it-services.html#managed-service"  class="mobile-link"><span class="mi">🔧</span> Managed Service</a>
-    <a href="it-services.html#it-outsourcing"   class="mobile-link"><span class="mi">👥</span> IT-Outsourcing</a>
-    <a href="it-services.html#it-support"       class="mobile-link"><span class="mi">🛠</span> IT-Service &amp; Support</a>
-    <a href="it-services.html#it-rollout"       class="mobile-link"><span class="mi">🚀</span> IT-Rollout</a>
-    <a href="it-services.html#it-beratung"      class="mobile-link"><span class="mi">💡</span> IT-Beratung</a>
+<!-- MOBILE NAV -->
+<nav class="nav-mobile">
+  <div class="nav-mobile-item">
+    <div class="nav-mobile-link">IT-Services <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></div>
+    <div class="nav-mobile-dropdown">
+      <a href="it-services.html#managed-service">Managed Service</a>
+      <a href="it-services.html#it-outsourcing">IT-Outsourcing</a>
+      <a href="it-services.html#it-support">IT-Service &amp; Support</a>
+      <a href="it-services.html#it-rollout">IT-Rollout</a>
+      <a href="it-services.html#it-beratung">IT-Beratung</a>
+    </div>
   </div>
-  <div class="mobile-section">
-    <div class="mobile-section-title">Solutions</div>
-    <a href="#microsoft365"      class="mobile-link"><span class="mi">📊</span> Microsoft 365</a>
-    <a href="#azure"             class="mobile-link"><span class="mi">☁️</span> Azure Infrastruktur</a>
-    <a href="#intune"            class="mobile-link"><span class="mi">🔒</span> Microsoft Intune</a>
-    <a href="#client-management" class="mobile-link"><span class="mi">💻</span> Client Management</a>
-    <a href="#cloud-telefonie"   class="mobile-link"><span class="mi">📞</span> Cloud Telefonie</a>
-    <a href="#ki-loesungen"      class="mobile-link"><span class="mi">🤖</span> KI-Lösungen</a>
-    <a href="#workshops"         class="mobile-link"><span class="mi">🎓</span> Workshops &amp; Schulungen</a>
+  <div class="nav-mobile-item">
+    <div class="nav-mobile-link">Solutions <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></div>
+    <div class="nav-mobile-dropdown">
+      <a href="#microsoft-365">Microsoft 365</a>
+      <a href="#azure">Azure Infrastruktur</a>
+      <a href="#intune">Microsoft Intune</a>
+      <a href="#client-management">Client Management</a>
+      <a href="#cloud-telefonie">Cloud Telefonie</a>
+      <a href="#ki-loesungen">KI-Lösungen</a>
+      <a href="#workshops">Workshops</a>
+    </div>
   </div>
-  <div class="mobile-section">
-    <div class="mobile-section-title">Unternehmen</div>
-    <a href="unternehmen.html#ueber-uns" class="mobile-link"><span class="mi">🏢</span> Über uns</a>
-    <a href="unternehmen.html#karriere"  class="mobile-link"><span class="mi">💼</span> Karriere</a>
-    <a href="unternehmen.html#soziales"  class="mobile-link"><span class="mi">🤝</span> Soziales Engagement</a>
-    <a href="kontakt.html"              class="mobile-link"><span class="mi">📬</span> Kontakt</a>
+  <div class="nav-mobile-item">
+    <div class="nav-mobile-link">Unternehmen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></div>
+    <div class="nav-mobile-dropdown">
+      <a href="unternehmen.html#ueber-uns">Über uns</a>
+      <a href="unternehmen.html#karriere">Karriere</a>
+      <a href="unternehmen.html#soziales">Soziales Engagement</a>
+    </div>
   </div>
-  <a href="kontakt.html" class="btn btn-primary mobile-cta-btn">Jetzt Kontakt aufnehmen ↗</a>
-</div>
+  <div class="nav-mobile-cta"><a href="kontakt.html" class="btn btn-primary">Kontakt aufnehmen</a></div>
+</nav>
 
-<!-- ============================================================
-     PAGE HERO
-     ============================================================ -->
+<!-- PAGE HERO -->
 <div class="page-hero">
   <div class="container">
-    <div class="page-hero-inner">
-      <nav class="breadcrumb">
-        <a href="index.html">Startseite</a>
-        <span class="sep">›</span>
-        <span>Solutions</span>
-      </nav>
-      <h1>Unsere Technologie-Lösungen</h1>
-      <p>Modernste Microsoft- und Cloud-Plattformen, professionell implementiert und
-         langfristig betreut – für maximale Effizienz in Ihrem Unternehmen.</p>
+    <div class="breadcrumb"><a href="index.html">Startseite</a><span class="sep">&#8250;</span> Solutions</div>
+    <h1>Innovative Technologielösungen</h1>
+    <p>Microsoft 365, Azure, KI und mehr – wir implementieren die Technologien, die Ihr Unternehmen voranbringen und zukunftssicher machen.</p>
+  </div>
+</div>
+
+<!-- 1. MICROSOFT 365 -->
+<div class="service-section" id="microsoft-365">
+  <div class="container">
+    <div class="service-layout">
+      <div class="service-content fade-in">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"/></svg>
+        </div>
+        <h2>Microsoft 365</h2>
+        <p>Als zertifizierter Microsoft Partner begleiten wir Sie von der Lizenzberatung über die Migration bis zum vollständigen Betrieb Ihrer Microsoft 365-Umgebung – inklusive Teams, SharePoint, Exchange und mehr.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Lizenzberatung und kostenoptimierte Beschaffung</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Migration von On-Premise zu Microsoft 365</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Teams-Einrichtung und Governance-Konzepte</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> SharePoint- und OneDrive-Konfiguration</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Sicherheits- und Compliance-Konfiguration</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+      <div class="fade-in fade-in-delay-2">
+        <div class="service-info-box">
+          <div class="info-box-title">Microsoft 365 Vorteile</div>
+          <div class="info-facts">
+            <div class="info-fact"><div class="info-fact-number">Cloud</div><div class="info-fact-label">Immer aktuelle Software</div></div>
+            <div class="info-fact"><div class="info-fact-number">EU</div><div class="info-fact-label">DSGVO-konforme Datenhaltung</div></div>
+            <div class="info-fact"><div class="info-fact-number">50+</div><div class="info-fact-label">M365-Migrationen durchgeführt</div></div>
+            <div class="info-fact"><div class="info-fact-number">Partner</div><div class="info-fact-label">Zertifizierter Microsoft Partner</div></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<!-- ============================================================
-     SOLUTIONS ÜBERSICHT
-     ============================================================ -->
-<section class="bg-white">
+<!-- 2. AZURE -->
+<div class="service-section alt" id="azure">
   <div class="container">
-    <div class="section-header centered fade-in">
-      <span class="section-label">Alle Lösungen im Überblick</span>
-      <h2 class="section-title">Das komplette Microsoft-Ökosystem</h2>
-      <p class="section-subtitle">
-        Als zertifizierter Microsoft Partner decken wir das gesamte Spektrum moderner
-        Cloud- und Workplace-Technologien ab.
-      </p>
-    </div>
-    <div class="solution-cards-grid">
-      <a href="#microsoft365" class="solution-card fade-in fade-in-delay-1">
-        <span class="solution-tag">Microsoft 365</span>
-        <div class="card-icon">📊</div>
-        <h3>Microsoft 365</h3>
-        <p>Die komplette Produktivitätssuite – E-Mail, Teams, Office, OneDrive und SharePoint nahtlos integriert.</p>
-        <span class="card-link">Details →</span>
-      </a>
-      <a href="#azure" class="solution-card fade-in fade-in-delay-2">
-        <span class="solution-tag">Cloud</span>
-        <div class="card-icon">☁️</div>
-        <h3>Azure Infrastruktur</h3>
-        <p>Skalierbare und sichere Cloud-Infrastruktur auf Microsoft Azure – von der Planung bis zum Betrieb.</p>
-        <span class="card-link">Details →</span>
-      </a>
-      <a href="#intune" class="solution-card fade-in fade-in-delay-3">
-        <span class="solution-tag">Security</span>
-        <div class="card-icon">🔒</div>
-        <h3>Microsoft Intune</h3>
-        <p>Zentrales Mobile Device Management für alle Endgeräte – sicher, kompatibel und einfach verwaltbar.</p>
-        <span class="card-link">Details →</span>
-      </a>
-      <a href="#client-management" class="solution-card fade-in fade-in-delay-4">
-        <span class="solution-tag">Endpoint</span>
-        <div class="card-icon">💻</div>
-        <h3>Client Management</h3>
-        <p>Automatisiertes Management aller Client-Geräte – Updates, Software-Verteilung und Compliance.</p>
-        <span class="card-link">Details →</span>
-      </a>
-      <a href="#cloud-telefonie" class="solution-card fade-in fade-in-delay-1">
-        <span class="solution-tag">Kommunikation</span>
-        <div class="card-icon">📞</div>
-        <h3>Cloud Telefonie</h3>
-        <p>Moderne VoIP-Telefonanlagen aus der Cloud – standortunabhängig, flexibel und kosteneffizient.</p>
-        <span class="card-link">Details →</span>
-      </a>
-      <a href="#ki-loesungen" class="solution-card fade-in fade-in-delay-2">
-        <span class="solution-tag">KI / Copilot</span>
-        <div class="card-icon">🤖</div>
-        <h3>KI-Lösungen</h3>
-        <p>Microsoft Copilot, KI-Automatisierung und intelligente Workflows für mehr Produktivität.</p>
-        <span class="card-link">Details →</span>
-      </a>
-      <a href="#workshops" class="solution-card fade-in fade-in-delay-3">
-        <span class="solution-tag">Training</span>
-        <div class="card-icon">🎓</div>
-        <h3>Workshops &amp; Schulungen</h3>
-        <p>Praxisnahe IT-Schulungen für Ihr Team – von Grundlagen bis zu fortgeschrittenen Themen.</p>
-        <span class="card-link">Details →</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     SOLUTION DETAILS
-     ============================================================ -->
-<section class="bg-light">
-  <div class="container">
-
-    <!-- Microsoft 365 -->
-    <div class="service-detail" id="microsoft365">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">📊</div>
-        <h2>Microsoft 365</h2>
-        <p>
-          Microsoft 365 ist die zentrale Produktivitätsplattform für modernes Arbeiten.
-          MEXAA-IT begleitet Sie von der Lizenzierung über die Migration bis zum laufenden Betrieb
-          und Support – für eine reibungslose Einführung und maximale Nutzung.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">Migration von Legacy-Systemen zu Exchange Online</span>
-          <span class="service-feature">Teams-Einrichtung &amp; Governance-Konzepte</span>
-          <span class="service-feature">SharePoint &amp; OneDrive Rollout</span>
-          <span class="service-feature">Lizenzoptimierung &amp; Kostenanalyse</span>
-          <span class="service-feature">Laufender Support &amp; Schulungen</span>
+    <div class="service-layout">
+      <div class="fade-in fade-in-delay-2" style="order:2">
+        <div class="service-info-box">
+          <div class="info-box-title">Azure-Expertise</div>
+          <div class="info-facts">
+            <div class="info-fact"><div class="info-fact-number">IaaS</div><div class="info-fact-label">Infrastruktur as a Service</div></div>
+            <div class="info-fact"><div class="info-fact-number">99.9%</div><div class="info-fact-label">Microsoft SLA-Verfügbarkeit</div></div>
+            <div class="info-fact"><div class="info-fact-number">Hybrid</div><div class="info-fact-label">On-Premise + Cloud</div></div>
+            <div class="info-fact"><div class="info-fact-number">24/7</div><div class="info-fact-label">Azure-Monitoring</div></div>
+          </div>
         </div>
       </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">📊</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">📊</div>
-          <h3>Microsoft 365</h3>
-          <p>Modernes Arbeiten, überall und auf jedem Gerät.</p>
+      <div class="service-content fade-in" style="order:1">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z"/></svg>
         </div>
-      </div>
-    </div>
-
-    <!-- Azure -->
-    <div class="service-detail reverse" id="azure">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">☁️</div>
         <h2>Azure Infrastruktur</h2>
-        <p>
-          Microsoft Azure bietet die zuverlässige, sichere und skalierbare Cloud-Plattform
-          für Ihre Unternehmens-IT. MEXAA-IT plant, migriert und betreibt Ihre Azure-Umgebung
-          nach Best Practices und höchsten Sicherheitsstandards.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">Azure Architecture Design &amp; Planung</span>
-          <span class="service-feature">Migration on-premise → Azure</span>
-          <span class="service-feature">Azure Virtual Desktop (AVD) Implementierung</span>
-          <span class="service-feature">Sicherheit &amp; Compliance (Defender for Cloud)</span>
-          <span class="service-feature">Kostenoptimierung &amp; FinOps</span>
-        </div>
-      </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">☁️</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">☁️</div>
-          <h3>Azure Infrastruktur</h3>
-          <p>Skalierbare Cloud-Power für Ihr Unternehmen.</p>
-        </div>
+        <p>Wir planen, migrieren und betreiben Ihre IT-Infrastruktur auf Microsoft Azure – skalierbar, hochverfügbar und kostenoptimiert. Vom einfachen File-Server bis zur komplexen Hybrid-Cloud-Architektur.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Azure-Architekturplanung und -design</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Lift &amp; Shift-Migrationen von Server-Workloads</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Azure Active Directory und Hybrid-Identity</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Backup und Disaster Recovery in Azure</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Azure Cost Management und Optimierung</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
       </div>
     </div>
-
-    <!-- Intune -->
-    <div class="service-detail" id="intune">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">🔒</div>
-        <h2>Microsoft Intune</h2>
-        <p>
-          Mit Microsoft Intune verwalten Sie alle Endgeräte Ihres Unternehmens zentral –
-          Windows, macOS, iOS und Android. MEXAA-IT richtet Ihre Intune-Umgebung ein,
-          definiert Compliance-Richtlinien und sorgt für maximale Sicherheit.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">Geräteregistrierung &amp; Autopilot-Konfiguration</span>
-          <span class="service-feature">Compliance-Richtlinien &amp; Conditional Access</span>
-          <span class="service-feature">App-Management &amp; Software-Verteilung</span>
-          <span class="service-feature">BYOD-Konzepte &amp; Mobile Application Management</span>
-          <span class="service-feature">Zero Trust Sicherheitsarchitektur</span>
-        </div>
-      </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">🔒</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">🔒</div>
-          <h3>Microsoft Intune</h3>
-          <p>Alle Geräte. Eine Plattform. Maximale Sicherheit.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Client Management -->
-    <div class="service-detail reverse" id="client-management">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">💻</div>
-        <h2>Client Management</h2>
-        <p>
-          Automatisiertes, zentrales Management aller Client-Systeme in Ihrem Netzwerk.
-          Patches, Updates, Software-Verteilung und Konfigurationsmanagement – effizient
-          und revisionssicher, mit vollständiger Transparenz.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">Automatisches Patch- und Update-Management</span>
-          <span class="service-feature">Zentrale Software-Verteilung &amp; Deinstallation</span>
-          <span class="service-feature">Hardware- &amp; Software-Inventarisierung</span>
-          <span class="service-feature">Remote-Zugriff &amp; Fernwartung</span>
-          <span class="service-feature">Compliance-Reporting &amp; Dokumentation</span>
-        </div>
-      </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">💻</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">💻</div>
-          <h3>Client Management</h3>
-          <p>Alle Clients. Automatisiert. Immer aktuell.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Cloud Telefonie -->
-    <div class="service-detail" id="cloud-telefonie">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">📞</div>
-        <h2>Cloud Telefonie</h2>
-        <p>
-          Verabschieden Sie sich von klassischen Telefonanlagen. Mit modernen Cloud-Telefonlösungen
-          – integriert in Microsoft Teams – telefonieren Ihre Mitarbeiter von überall,
-          flexibel und zu deutlich reduzierten Kosten.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">Microsoft Teams Phone &amp; Direct Routing</span>
-          <span class="service-feature">Migration von klassischen TK-Anlagen</span>
-          <span class="service-feature">Rufnummernportierung &amp; -verwaltung</span>
-          <span class="service-feature">Integration in bestehende CRM-Systeme</span>
-          <span class="service-feature">Schulung &amp; laufender Support</span>
-        </div>
-      </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">📞</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">📞</div>
-          <h3>Cloud Telefonie</h3>
-          <p>Kommunizieren ohne Grenzen – überall, jederzeit.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- KI-Lösungen -->
-    <div class="service-detail reverse" id="ki-loesungen">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">🤖</div>
-        <h2>KI-Lösungen</h2>
-        <p>
-          Künstliche Intelligenz ist kein Zukunftsthema mehr – sie ist jetzt. Mit Microsoft Copilot
-          und KI-gestützten Workflows helfen wir Ihnen, Routineaufgaben zu automatisieren,
-          Entscheidungen zu verbessern und die Produktivität zu steigern.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">Microsoft 365 Copilot Einführung &amp; Schulung</span>
-          <span class="service-feature">Power Automate Workflows &amp; KI-Automatisierung</span>
-          <span class="service-feature">Azure AI Services Integration</span>
-          <span class="service-feature">KI-Readiness Assessment für Ihr Unternehmen</span>
-          <span class="service-feature">Individuelle KI-Use-Cases &amp; Pilotprojekte</span>
-        </div>
-      </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">🤖</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">🤖</div>
-          <h3>KI-Lösungen</h3>
-          <p>Intelligenter arbeiten mit Microsoft Copilot und KI.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Workshops & Schulungen -->
-    <div class="service-detail" id="workshops">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">🎓</div>
-        <h2>Workshops &amp; Schulungen</h2>
-        <p>
-          Technologie entfaltet ihr volles Potenzial nur, wenn Ihre Mitarbeiter sie beherrschen.
-          Unsere praxisnahen Workshops und Schulungen vermitteln genau das Wissen, das Ihr Team
-          für den digitalen Alltag braucht.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">Microsoft 365 Anwenderschulungen</span>
-          <span class="service-feature">IT-Security &amp; Phishing-Awareness-Trainings</span>
-          <span class="service-feature">Microsoft Copilot &amp; KI-Einführungsworkshops</span>
-          <span class="service-feature">Teams &amp; Remote-Work Best Practices</span>
-          <span class="service-feature">Individuelle Schulungskonzepte auf Anfrage</span>
-        </div>
-      </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">🎓</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">🎓</div>
-          <h3>Workshops &amp; Schulungen</h3>
-          <p>Wissen, das im Alltag ankommt und den Unterschied macht.</p>
-        </div>
-      </div>
-    </div>
-
   </div>
-</section>
+</div>
+
+<!-- 3. INTUNE -->
+<div class="service-section" id="intune">
+  <div class="container">
+    <div class="service-layout">
+      <div class="service-content fade-in">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/></svg>
+        </div>
+        <h2>Microsoft Intune</h2>
+        <p>Zentrale Verwaltung und Absicherung aller Endgeräte Ihres Unternehmens – Windows, macOS, iOS und Android – direkt aus der Cloud mit Microsoft Intune und Endpoint Manager.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Einrichtung und Konfiguration von Microsoft Intune</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Windows Autopilot für automatisches Onboarding</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Conditional Access und Zero-Trust-Richtlinien</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Mobile Device Management (MDM) für BYOD</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Compliance-Richtlinien und Sicherheitsbaselines</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+      <div class="fade-in fade-in-delay-2">
+        <div class="service-info-box">
+          <div class="info-box-title">Intune-Kennzahlen</div>
+          <div class="info-facts">
+            <div class="info-fact"><div class="info-fact-number">4</div><div class="info-fact-label">Plattformen: Win, Mac, iOS, Android</div></div>
+            <div class="info-fact"><div class="info-fact-number">Zero</div><div class="info-fact-label">Zero-Trust Security</div></div>
+            <div class="info-fact"><div class="info-fact-number">100%</div><div class="info-fact-label">Cloud-basiertes Management</div></div>
+            <div class="info-fact"><div class="info-fact-number">DSGVO</div><div class="info-fact-label">Datenschutzkonforme Richtlinien</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 4. CLIENT MANAGEMENT -->
+<div class="service-section alt" id="client-management">
+  <div class="container">
+    <div class="service-layout">
+      <div class="fade-in fade-in-delay-2" style="order:2">
+        <div class="service-info-box">
+          <div class="info-box-title">Client-Management-Stärken</div>
+          <div class="info-facts">
+            <div class="info-fact"><div class="info-fact-number">Auto</div><div class="info-fact-label">Automatisierte Softwareverteilung</div></div>
+            <div class="info-fact"><div class="info-fact-number">Patch</div><div class="info-fact-label">Monatliches Patch-Management</div></div>
+            <div class="info-fact"><div class="info-fact-number">ITAM</div><div class="info-fact-label">IT Asset Management</div></div>
+            <div class="info-fact"><div class="info-fact-number">Live</div><div class="info-fact-label">Echtzeit-Inventory aller Geräte</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="service-content fade-in" style="order:1">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0H3"/></svg>
+        </div>
+        <h2>Client Management</h2>
+        <p>Effiziente Verwaltung aller Endgeräte Ihres Unternehmens – von der automatisierten Softwareverteilung über Patch-Management bis hin zur vollständigen IT-Asset-Übersicht.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Automatisierte Softwareverteilung und -aktualisierung</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Windows Update for Business und Patch-Zyklen</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Vollständiges IT-Asset-Inventory und Lifecycle-Tracking</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Remote-Diagnose und -Wartung von Endgeräten</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Lizenz-Compliance und Software-Auditing</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 5. CLOUD TELEFONIE -->
+<div class="service-section" id="cloud-telefonie">
+  <div class="container">
+    <div class="service-layout">
+      <div class="service-content fade-in">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+        </div>
+        <h2>Cloud Telefonie</h2>
+        <p>Modernisieren Sie Ihre Unternehmenskommunikation mit Cloud-Telefonie auf Basis von Microsoft Teams oder anderen modernen Plattformen – ohne teure Hardware, flexibel und skalierbar.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Microsoft Teams Phone und Direct Routing</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Migration bestehender Telefonanlagen in die Cloud</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Rufnummernportierung und Anbieterwechsel</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Conferencing, Voicemail und Auto-Attendant</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Integration mit CRM und Geschäftsprozessen</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+      <div class="fade-in fade-in-delay-2">
+        <div class="service-info-box">
+          <div class="info-box-title">Telefonie-Vorteile</div>
+          <div class="info-facts">
+            <div class="info-fact"><div class="info-fact-number">0</div><div class="info-fact-label">Keine teure Hardware nötig</div></div>
+            <div class="info-fact"><div class="info-fact-number">HD</div><div class="info-fact-label">HD-Voice Sprachqualität</div></div>
+            <div class="info-fact"><div class="info-fact-number">Mobil</div><div class="info-fact-label">Überall erreichbar</div></div>
+            <div class="info-fact"><div class="info-fact-number">Fix</div><div class="info-fact-label">Planbare Kosten pro Nutzer</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 6. KI-LÖSUNGEN -->
+<div class="service-section alt" id="ki-loesungen">
+  <div class="container">
+    <div class="service-layout">
+      <div class="fade-in fade-in-delay-2" style="order:2">
+        <div class="service-info-box">
+          <div class="info-box-title">KI-Potenziale</div>
+          <div class="info-facts">
+            <div class="info-fact"><div class="info-fact-number">40%</div><div class="info-fact-label">Zeitersparnis durch KI-Automatisierung</div></div>
+            <div class="info-fact"><div class="info-fact-number">Copilot</div><div class="info-fact-label">Microsoft 365 Copilot Integration</div></div>
+            <div class="info-fact"><div class="info-fact-number">DSGVO</div><div class="info-fact-label">Datenschutzkonforme KI-Lösungen</div></div>
+            <div class="info-fact"><div class="info-fact-number">ROI</div><div class="info-fact-label">Messbare Produktivitätssteigerung</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="service-content fade-in" style="order:1">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z"/></svg>
+        </div>
+        <h2>KI-Lösungen</h2>
+        <p>Wir helfen Ihnen, das Potenzial künstlicher Intelligenz für Ihr Unternehmen zu erschließen – praxisnah, DSGVO-konform und auf Ihre Geschäftsprozesse zugeschnitten.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Microsoft 365 Copilot Einführung und Training</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Azure OpenAI und KI-Infrastruktur-Setup</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Power Automate-Workflows mit KI-Komponenten</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Individuelle KI-Anwendungen für Ihre Prozesse</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> KI-Readiness-Assessment und Strategie-Workshop</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 7. WORKSHOPS -->
+<div class="service-section" id="workshops">
+  <div class="container">
+    <div class="service-layout">
+      <div class="service-content fade-in">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
+        </div>
+        <h2>Workshops &amp; Schulungen</h2>
+        <p>Befähigen Sie Ihre Mitarbeiter mit praxisnahen Workshops und zertifizierten Microsoft-Schulungen – als Einzeltraining, Gruppenveranstaltung oder als maßgeschneidertes Schulungskonzept für Ihr gesamtes Unternehmen.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Microsoft 365 User-Trainings (Teams, Outlook, SharePoint)</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> KI und Copilot-Schulungen für Endanwender</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> IT-Sicherheits-Awareness-Trainings</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Vor Ort, online oder als Hybrid-Format</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Maßgeschneiderte Schulungskonzepte für Unternehmen</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+      <div class="fade-in fade-in-delay-2">
+        <div class="service-info-box">
+          <div class="info-box-title">Schulungs-Portfolio</div>
+          <div class="info-facts">
+            <div class="info-fact"><div class="info-fact-number">10+</div><div class="info-fact-label">Verschiedene Kursformate</div></div>
+            <div class="info-fact"><div class="info-fact-number">Zert.</div><div class="info-fact-label">Microsoft Certified Trainer</div></div>
+            <div class="info-fact"><div class="info-fact-number">Flexibel</div><div class="info-fact-label">Termin nach Wunsch</div></div>
+            <div class="info-fact"><div class="info-fact-number">DE/EN</div><div class="info-fact-label">Auf Deutsch und Englisch</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- CTA -->
 <section class="cta-section">
   <div class="container">
-    <div class="fade-in">
-      <h2>Welche Lösung passt zu Ihnen?</h2>
-      <p>Sprechen Sie mit unseren Experten und erhalten Sie eine individuelle Empfehlung.</p>
-      <a href="kontakt.html" class="btn btn-primary btn-lg">Kostenlose Beratung anfragen ↗</a>
-    </div>
+    <h2>Bereit für Ihre nächste IT-Lösung?</h2>
+    <p>Sprechen Sie mit unseren Technologie-Experten und erfahren Sie, welche Lösung am besten zu Ihrem Unternehmen passt.</p>
+    <a href="kontakt.html" class="btn-cta">Kostenlose Beratung anfragen <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
   </div>
 </section>
 
 <!-- FOOTER -->
-<footer class="footer">
+<footer>
   <div class="container">
     <div class="footer-grid">
-      <div class="footer-brand">
-        <img src="mexa.logo2.png" alt="MEXAA-IT Icon" class="footer-logo" />
-        <div class="footer-brand-name">MEXAA-IT GmbH</div>
-        <div class="footer-tagline">think for results!</div>
-        <p class="footer-desc">Ihr ganzheitlicher IT-Dienstleister für den deutschen Mittelstand.</p>
+      <div>
+        <div class="footer-logo"><img src="mexa.logo2.png" alt="MEXAA-IT GmbH" /></div>
+        <p class="footer-tagline">Ihr zuverlässiger IT-Partner für den Mittelstand.</p>
+        <div class="footer-social">
+          <a href="#" class="social-icon" aria-label="LinkedIn"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="#" class="social-icon" aria-label="Instagram"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+          <a href="#" class="social-icon" aria-label="X"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        </div>
+        <a href="#" class="footer-remote">Fernwartung starten &#8599;</a>
       </div>
-      <div class="footer-col">
-        <h4>IT-Services</h4>
-        <nav class="footer-links">
+      <div>
+        <div class="footer-col-title">IT-Services</div>
+        <div class="footer-links">
           <a href="it-services.html#managed-service">Managed Service</a>
           <a href="it-services.html#it-outsourcing">IT-Outsourcing</a>
           <a href="it-services.html#it-support">IT-Service &amp; Support</a>
-          <a href="it-services.html#it-rollout">IT-Lifecycle</a>
+          <a href="it-services.html#it-rollout">IT-Rollout</a>
           <a href="it-services.html#it-beratung">IT-Beratung</a>
-        </nav>
+        </div>
       </div>
-      <div class="footer-col">
-        <h4>Solutions</h4>
-        <nav class="footer-links">
+      <div>
+        <div class="footer-col-title">Solutions</div>
+        <div class="footer-links">
+          <a href="#microsoft-365">Microsoft 365</a>
           <a href="#azure">Azure Infrastruktur</a>
-          <a href="#microsoft365">Microsoft 365</a>
           <a href="#intune">Microsoft Intune</a>
           <a href="#client-management">Client Management</a>
           <a href="#cloud-telefonie">Cloud Telefonie</a>
           <a href="#ki-loesungen">KI-Lösungen</a>
-          <a href="#workshops">Workshops &amp; Schulungen</a>
-        </nav>
+          <a href="#workshops">Workshops</a>
+        </div>
       </div>
-      <div class="footer-col">
-        <h4>Unternehmen</h4>
-        <nav class="footer-links">
+      <div>
+        <div class="footer-col-title">Unternehmen</div>
+        <div class="footer-links">
           <a href="unternehmen.html#ueber-uns">Über uns</a>
           <a href="unternehmen.html#karriere">Karriere</a>
           <a href="unternehmen.html#soziales">Soziales Engagement</a>
           <a href="kontakt.html">Kontakt</a>
-        </nav>
-      </div>
-      <div class="footer-col">
-        <h4>Social Media</h4>
-        <div class="footer-social">
-          <a href="#" class="social-link"><span class="social-icon">in</span> LinkedIn</a>
-          <a href="#" class="social-link"><span class="social-icon">📷</span> Instagram</a>
-          <a href="#" class="social-link"><span class="social-icon">𝕏</span> Twitter / X</a>
         </div>
-        <a href="kontakt.html" class="btn btn-primary" style="font-size:13px;padding:10px 18px;">Fernwartung starten ↗</a>
+      </div>
+      <div>
+        <div class="footer-col-title">Kontakt</div>
+        <div class="footer-links">
+          <a href="tel:+4989123456789">+49 89 123 456 789</a>
+          <a href="mailto:info@mexaa-it.de">info@mexaa-it.de</a>
+          <a href="kontakt.html">Anfrage senden</a>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 MEXAA-IT GmbH – Alle Rechte vorbehalten</span>
-      <nav class="footer-legal">
-        <a href="#">Impressum</a><a href="#">AGB</a>
-        <a href="#">Disclaimer</a><a href="#">Datenschutz</a><a href="#">Cookies</a>
-      </nav>
+      <span>&copy; 2026 MEXAA-IT GmbH &ndash; Alle Rechte vorbehalten</span>
+      <div class="footer-bottom-links">
+        <a href="#">Impressum</a>
+        <a href="#">AGB</a>
+        <a href="#">Disclaimer</a>
+        <a href="#">Datenschutz</a>
+        <a href="#">Cookies</a>
+      </div>
     </div>
   </div>
 </footer>

@@ -3,346 +3,401 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="IT-Services von MEXAA-IT GmbH: Managed Service, IT-Outsourcing, IT-Support, IT-Rollout und strategische IT-Beratung für den Mittelstand." />
   <title>IT-Services – MEXAA-IT GmbH</title>
+  <meta name="description" content="Professionelle IT-Dienstleistungen: Managed Service, IT-Outsourcing, IT-Service & Support, IT-Rollout und IT-Beratung für den Mittelstand." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- ============================================================
-     NAVIGATION
-     ============================================================ -->
-<nav class="nav" id="nav">
+<!-- NAVIGATION -->
+<nav class="nav" id="main-nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
       <img src="mexa.logo1.jpg" alt="MEXAA-IT GmbH" />
     </a>
-    <ul class="nav-menu">
-      <li class="nav-item" data-page="it-services">
-        <span class="nav-link">IT-Services <span class="chevron">▾</span></span>
+    <ul class="nav-links">
+      <li class="nav-item has-dropdown active">
+        <a href="it-services.html" class="nav-link">IT-Services <svg class="chevron" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
         <div class="dropdown">
-          <a href="#managed-service" class="dropdown-item"><span class="item-icon">🔧</span><span class="item-text">Managed Service</span><span class="item-arrow">›</span></a>
-          <a href="#it-outsourcing"  class="dropdown-item"><span class="item-icon">👥</span><span class="item-text">IT-Outsourcing</span><span class="item-arrow">›</span></a>
-          <a href="#it-support"      class="dropdown-item"><span class="item-icon">🛠</span><span class="item-text">IT-Service &amp; Support</span><span class="item-arrow">›</span></a>
-          <a href="#it-rollout"      class="dropdown-item"><span class="item-icon">🚀</span><span class="item-text">IT-Rollout</span><span class="item-arrow">›</span></a>
-          <a href="#it-beratung"     class="dropdown-item"><span class="item-icon">💡</span><span class="item-text">IT-Beratung</span><span class="item-arrow">›</span></a>
+          <a href="#managed-service" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg></span><span class="dropdown-text">Managed Service</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="#it-outsourcing" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/></svg></span><span class="dropdown-text">IT-Outsourcing</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="#it-support" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/></svg></span><span class="dropdown-text">IT-Service &amp; Support</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="#it-rollout" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/></svg></span><span class="dropdown-text">IT-Rollout</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="#it-beratung" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"/></svg></span><span class="dropdown-text">IT-Beratung</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
         </div>
       </li>
-      <li class="nav-item" data-page="solutions">
-        <span class="nav-link">Solutions <span class="chevron">▾</span></span>
+      <li class="nav-item has-dropdown">
+        <a href="solutions.html" class="nav-link">Solutions <svg class="chevron" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
         <div class="dropdown">
-          <a href="solutions.html#microsoft365"      class="dropdown-item"><span class="item-icon">📊</span><span class="item-text">Microsoft 365</span><span class="item-arrow">›</span></a>
-          <a href="solutions.html#azure"             class="dropdown-item"><span class="item-icon">☁️</span><span class="item-text">Azure Infrastruktur</span><span class="item-arrow">›</span></a>
-          <a href="solutions.html#intune"            class="dropdown-item"><span class="item-icon">🔒</span><span class="item-text">Microsoft Intune</span><span class="item-arrow">›</span></a>
-          <a href="solutions.html#client-management" class="dropdown-item"><span class="item-icon">💻</span><span class="item-text">Client Management</span><span class="item-arrow">›</span></a>
-          <a href="solutions.html#cloud-telefonie"   class="dropdown-item"><span class="item-icon">📞</span><span class="item-text">Cloud Telefonie</span><span class="item-arrow">›</span></a>
-          <a href="solutions.html#ki-loesungen"      class="dropdown-item"><span class="item-icon">🤖</span><span class="item-text">KI-Lösungen</span><span class="item-arrow">›</span></a>
-          <a href="solutions.html#workshops"         class="dropdown-item"><span class="item-icon">🎓</span><span class="item-text">Workshops &amp; Schulungen</span><span class="item-arrow">›</span></a>
+          <a href="solutions.html#microsoft-365" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"/></svg></span><span class="dropdown-text">Microsoft 365</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="solutions.html#azure" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z"/></svg></span><span class="dropdown-text">Azure Infrastruktur</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="solutions.html#intune" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/></svg></span><span class="dropdown-text">Microsoft Intune</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="solutions.html#client-management" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0H3"/></svg></span><span class="dropdown-text">Client Management</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="solutions.html#cloud-telefonie" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg></span><span class="dropdown-text">Cloud Telefonie</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="solutions.html#ki-loesungen" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z"/></svg></span><span class="dropdown-text">KI-Lösungen</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="solutions.html#workshops" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg></span><span class="dropdown-text">Workshops &amp; Schulungen</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
         </div>
       </li>
-      <li class="nav-item" data-page="unternehmen,kontakt">
-        <span class="nav-link">Unternehmen <span class="chevron">▾</span></span>
+      <li class="nav-item has-dropdown">
+        <a href="unternehmen.html" class="nav-link">Unternehmen <svg class="chevron" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
         <div class="dropdown">
-          <a href="unternehmen.html#ueber-uns" class="dropdown-item"><span class="item-icon">🏢</span><span class="item-text">Über uns</span><span class="item-arrow">›</span></a>
-          <a href="unternehmen.html#karriere"  class="dropdown-item"><span class="item-icon">💼</span><span class="item-text">Karriere</span><span class="item-arrow">›</span></a>
-          <a href="unternehmen.html#soziales"  class="dropdown-item"><span class="item-icon">🤝</span><span class="item-text">Soziales Engagement</span><span class="item-arrow">›</span></a>
-          <a href="kontakt.html"              class="dropdown-item"><span class="item-icon">📬</span><span class="item-text">Kontakt</span><span class="item-arrow">›</span></a>
+          <a href="unternehmen.html#ueber-uns" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"/></svg></span><span class="dropdown-text">Über uns</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="unternehmen.html#karriere" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"/></svg></span><span class="dropdown-text">Karriere</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
+          <a href="unternehmen.html#soziales" class="dropdown-item"><span class="dropdown-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg></span><span class="dropdown-text">Soziales Engagement</span><svg class="dropdown-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
         </div>
       </li>
     </ul>
-    <a href="kontakt.html" class="btn btn-primary nav-cta">Kontakt ↗</a>
-    <button class="hamburger" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+    <a href="kontakt.html" class="nav-cta">Kontakt aufnehmen</a>
+    <button class="hamburger" aria-label="Menü"><span></span><span></span><span></span></button>
   </div>
 </nav>
 
-<div class="nav-mobile" id="nav-mobile">
-  <div class="mobile-section">
-    <div class="mobile-section-title">IT-Services</div>
-    <a href="#managed-service" class="mobile-link"><span class="mi">🔧</span> Managed Service</a>
-    <a href="#it-outsourcing"  class="mobile-link"><span class="mi">👥</span> IT-Outsourcing</a>
-    <a href="#it-support"      class="mobile-link"><span class="mi">🛠</span> IT-Service &amp; Support</a>
-    <a href="#it-rollout"      class="mobile-link"><span class="mi">🚀</span> IT-Rollout</a>
-    <a href="#it-beratung"     class="mobile-link"><span class="mi">💡</span> IT-Beratung</a>
+<!-- MOBILE NAV -->
+<nav class="nav-mobile">
+  <div class="nav-mobile-item">
+    <div class="nav-mobile-link">IT-Services <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></div>
+    <div class="nav-mobile-dropdown">
+      <a href="#managed-service">Managed Service</a>
+      <a href="#it-outsourcing">IT-Outsourcing</a>
+      <a href="#it-support">IT-Service &amp; Support</a>
+      <a href="#it-rollout">IT-Rollout</a>
+      <a href="#it-beratung">IT-Beratung</a>
+    </div>
   </div>
-  <div class="mobile-section">
-    <div class="mobile-section-title">Solutions</div>
-    <a href="solutions.html#microsoft365"      class="mobile-link"><span class="mi">📊</span> Microsoft 365</a>
-    <a href="solutions.html#azure"             class="mobile-link"><span class="mi">☁️</span> Azure Infrastruktur</a>
-    <a href="solutions.html#intune"            class="mobile-link"><span class="mi">🔒</span> Microsoft Intune</a>
-    <a href="solutions.html#client-management" class="mobile-link"><span class="mi">💻</span> Client Management</a>
-    <a href="solutions.html#cloud-telefonie"   class="mobile-link"><span class="mi">📞</span> Cloud Telefonie</a>
-    <a href="solutions.html#ki-loesungen"      class="mobile-link"><span class="mi">🤖</span> KI-Lösungen</a>
-    <a href="solutions.html#workshops"         class="mobile-link"><span class="mi">🎓</span> Workshops &amp; Schulungen</a>
+  <div class="nav-mobile-item">
+    <div class="nav-mobile-link">Solutions <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></div>
+    <div class="nav-mobile-dropdown">
+      <a href="solutions.html#microsoft-365">Microsoft 365</a>
+      <a href="solutions.html#azure">Azure Infrastruktur</a>
+      <a href="solutions.html#intune">Microsoft Intune</a>
+      <a href="solutions.html#client-management">Client Management</a>
+      <a href="solutions.html#cloud-telefonie">Cloud Telefonie</a>
+      <a href="solutions.html#ki-loesungen">KI-Lösungen</a>
+      <a href="solutions.html#workshops">Workshops</a>
+    </div>
   </div>
-  <div class="mobile-section">
-    <div class="mobile-section-title">Unternehmen</div>
-    <a href="unternehmen.html#ueber-uns" class="mobile-link"><span class="mi">🏢</span> Über uns</a>
-    <a href="unternehmen.html#karriere"  class="mobile-link"><span class="mi">💼</span> Karriere</a>
-    <a href="unternehmen.html#soziales"  class="mobile-link"><span class="mi">🤝</span> Soziales Engagement</a>
-    <a href="kontakt.html"              class="mobile-link"><span class="mi">📬</span> Kontakt</a>
+  <div class="nav-mobile-item">
+    <div class="nav-mobile-link">Unternehmen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></div>
+    <div class="nav-mobile-dropdown">
+      <a href="unternehmen.html#ueber-uns">Über uns</a>
+      <a href="unternehmen.html#karriere">Karriere</a>
+      <a href="unternehmen.html#soziales">Soziales Engagement</a>
+    </div>
   </div>
-  <a href="kontakt.html" class="btn btn-primary mobile-cta-btn">Jetzt Kontakt aufnehmen ↗</a>
-</div>
+  <div class="nav-mobile-cta"><a href="kontakt.html" class="btn btn-primary">Kontakt aufnehmen</a></div>
+</nav>
 
-<!-- ============================================================
-     PAGE HERO
-     ============================================================ -->
+<!-- PAGE HERO -->
 <div class="page-hero">
   <div class="container">
-    <div class="page-hero-inner">
-      <nav class="breadcrumb">
-        <a href="index.html">Startseite</a>
-        <span class="sep">›</span>
-        <span>IT-Services</span>
-      </nav>
-      <h1>Unsere IT-Services</h1>
-      <p>Von proaktivem Managed Service bis zur strategischen IT-Beratung –
-         wir decken das gesamte IT-Spektrum für Ihr Unternehmen ab.</p>
+    <div class="breadcrumb"><a href="index.html">Startseite</a><span class="sep">&#8250;</span> IT-Services</div>
+    <h1>IT-Services für den Mittelstand</h1>
+    <p>Vom Helpdesk bis zum vollständigen IT-Outsourcing – wir übernehmen Verantwortung für Ihre IT-Infrastruktur und sorgen für reibungslosen Betrieb.</p>
+  </div>
+</div>
+
+<!-- 1. MANAGED SERVICE -->
+<div class="service-section" id="managed-service">
+  <div class="container">
+    <div class="service-layout">
+      <div class="service-content fade-in">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+        </div>
+        <h2>Managed Service</h2>
+        <p>Mit unserem Managed Service übernehmen wir die proaktive Überwachung, Wartung und Verwaltung Ihrer gesamten IT-Infrastruktur. Sie zahlen eine feste monatliche Pauschale – wir sorgen dafür, dass alles läuft.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> 24/7 Monitoring aller Server, Netzwerke und Endgeräte</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Proaktive Wartung und Patch-Management</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Garantierte Reaktionszeiten per SLA</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Monatliches Reporting und Analyse</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Backup-Überwachung und Datensicherung</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+      <div class="fade-in fade-in-delay-2">
+        <div class="service-info-box">
+          <div class="info-box-title">Auf einen Blick</div>
+          <div class="info-facts">
+            <div class="info-fact">
+              <div class="info-fact-number">24/7</div>
+              <div class="info-fact-label">Überwachung rund um die Uhr</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">&lt;4h</div>
+              <div class="info-fact-label">Garantierte Reaktionszeit</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">99.9%</div>
+              <div class="info-fact-label">Verfügbarkeits-SLA</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">Fix</div>
+              <div class="info-fact-label">Monatliche Kosten planbar</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<!-- ============================================================
-     SERVICE DETAILS
-     ============================================================ -->
-<section class="bg-white">
+<!-- 2. IT-OUTSOURCING -->
+<div class="service-section alt" id="it-outsourcing">
   <div class="container">
-
-    <!-- 1. Managed Service -->
-    <div class="service-detail" id="managed-service">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">🔧</div>
-        <h2>Managed Service</h2>
-        <p>
-          Als Ihr Managed Service Provider übernehmen wir die vollständige Verantwortung für
-          den Betrieb, die Überwachung und die Weiterentwicklung Ihrer IT-Infrastruktur.
-          Proaktiv, verlässlich und rund um die Uhr.
-        </p>
-        <p>
-          Durch regelmäßiges Monitoring, automatisierte Patches und definierte SLAs
-          minimieren wir Ausfallzeiten und sorgen dafür, dass Ihre IT stets auf dem
-          neuesten Stand ist – ohne dass Sie sich darum kümmern müssen.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">24/7-Monitoring Ihrer gesamten IT-Infrastruktur</span>
-          <span class="service-feature">Proaktives Patch- und Update-Management</span>
-          <span class="service-feature">Definierte SLAs mit garantierten Reaktionszeiten</span>
-          <span class="service-feature">Monatliche Berichte &amp; Transparenz-Dashboard</span>
-          <span class="service-feature">Festpreismodell – keine überraschenden Kosten</span>
+    <div class="service-layout">
+      <div class="fade-in fade-in-delay-2" style="order:2">
+        <div class="service-info-box">
+          <div class="info-box-title">Ihre Vorteile</div>
+          <div class="info-facts">
+            <div class="info-fact">
+              <div class="info-fact-number">30%</div>
+              <div class="info-fact-label">Durchschnittliche Kostensenkung</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">100%</div>
+              <div class="info-fact-label">IT-Verantwortung übertragen</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">Sofort</div>
+              <div class="info-fact-label">Skalierbares Team verfügbar</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">1</div>
+              <div class="info-fact-label">Ansprechpartner für alles</div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">🔧</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">🔧</div>
-          <h3>Managed Service</h3>
-          <p>Ihre IT in besten Händen – proaktiv, zuverlässig, transparent.</p>
+      <div class="service-content fade-in" style="order:1">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/></svg>
         </div>
-      </div>
-    </div>
-
-    <!-- 2. IT-Outsourcing -->
-    <div class="service-detail reverse" id="it-outsourcing">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">👥</div>
         <h2>IT-Outsourcing</h2>
-        <p>
-          Konzentrieren Sie sich auf Ihr Kerngeschäft – wir übernehmen Ihre gesamte IT.
-          Ob als Ergänzung zu Ihrem bestehenden Team oder als vollständige externe IT-Abteilung:
-          MEXAA-IT ist Ihr flexibler IT-Partner.
-        </p>
-        <p>
-          Unsere erfahrenen IT-Experten kennen die Anforderungen des deutschen Mittelstands
-          und liefern passgenaue Lösungen zu kalkulierbaren Kosten.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">Vollständige Übernahme der IT-Abteilung möglich</span>
-          <span class="service-feature">Flexibel skalierbar – von 5 bis 500 Arbeitsplätzen</span>
-          <span class="service-feature">Dedizierte Ansprechpartner &amp; persönliche Betreuung</span>
-          <span class="service-feature">Kostenreduktion durch Skaleneffekte</span>
-          <span class="service-feature">Fokus auf Ihr Kerngeschäft statt IT-Verwaltung</span>
-        </div>
-      </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">👥</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">👥</div>
-          <h3>IT-Outsourcing</h3>
-          <p>Ihre externe IT-Abteilung – flexibel, kosteneffizient, erfahren.</p>
-        </div>
+        <p>Übertragen Sie Ihre gesamte IT an MEXAA-IT – wir werden zur Ihrer internen IT-Abteilung. Inklusive strategischer Planung, täglichem Betrieb und Weiterentwicklung Ihrer IT-Landschaft.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Übernahme aller IT-Aufgaben und Verantwortung</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Dedizierter IT-Verantwortlicher als Ansprechpartner</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Strategische IT-Roadmap und Investitionsplanung</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Herstellerbeziehungen und Lizenzmanagement</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Flexible Skalierung bei Unternehmens­wachstum</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
       </div>
     </div>
-
-    <!-- 3. IT-Service & Support -->
-    <div class="service-detail" id="it-support">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">🛠</div>
-        <h2>IT-Service &amp; Support</h2>
-        <p>
-          Schnelle Hilfe bei IT-Problemen – per Telefon, Remote oder direkt vor Ort.
-          Unser erfahrenes Support-Team steht Ihnen mit kurzen Reaktionszeiten zur Seite
-          und behebt Störungen schnell und effizient.
-        </p>
-        <p>
-          Vom einfachen Anwenderproblem bis zur komplexen Systemstörung: Wir analysieren,
-          priorisieren und lösen – damit Ihr Betrieb unterbrechungsfrei läuft.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">Helpdesk per Telefon, E-Mail &amp; Ticketsystem</span>
-          <span class="service-feature">Remote-Support in unter 15 Minuten</span>
-          <span class="service-feature">Vor-Ort-Service bundesweit</span>
-          <span class="service-feature">Klare Ticketpriorisierung &amp; Eskalationsprozesse</span>
-          <span class="service-feature">Lückenlose Dokumentation aller Vorfälle</span>
-        </div>
-      </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">🛠</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">🛠</div>
-          <h3>IT-Service &amp; Support</h3>
-          <p>Schnell, kompetent, persönlich – Ihr zuverlässiger IT-Helpdesk.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- 4. IT-Rollout -->
-    <div class="service-detail reverse" id="it-rollout">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">🚀</div>
-        <h2>IT-Rollout</h2>
-        <p>
-          Ob 10 oder 1.000 Arbeitsplätze – wir planen und realisieren Ihre Hard- und Software-Rollouts
-          professionell, termingerecht und mit minimalem Aufwand für Ihr Unternehmen.
-        </p>
-        <p>
-          Mit bewährten Prozessen, standardisierten Images und zentralem Deployment sorgen
-          wir dafür, dass jeder Mitarbeiter optimal ausgestattet ist – schnell und reibungslos.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">Hardware-Rollout inkl. Beschaffung &amp; Logistik</span>
-          <span class="service-feature">Software-Deployment über zentrale Plattformen</span>
-          <span class="service-feature">Standardisierte Rollout-Prozesse &amp; Vorlagen</span>
-          <span class="service-feature">Migration von Daten &amp; Einstellungen</span>
-          <span class="service-feature">Endbenutzer-Einweisung &amp; Onboarding</span>
-        </div>
-      </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">🚀</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">🚀</div>
-          <h3>IT-Rollout</h3>
-          <p>Professionell, schnell und skalierbar – Rollouts die funktionieren.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- 5. IT-Beratung -->
-    <div class="service-detail" id="it-beratung">
-      <div class="service-text fade-in">
-        <div class="service-detail-icon">💡</div>
-        <h2>IT-Beratung</h2>
-        <p>
-          Technologie ist nur so gut wie die Strategie dahinter. Unsere erfahrenen IT-Berater
-          analysieren Ihre aktuelle IT-Situation, identifizieren Optimierungspotenziale und
-          entwickeln eine maßgeschneiderte Roadmap für Ihre digitale Zukunft.
-        </p>
-        <p>
-          Von der IT-Strategie über Sicherheitskonzepte bis zur Cloud-Migration – wir beraten
-          Sie herstellerneutral und mit Blick auf Ihre individuellen Geschäftsziele.
-        </p>
-        <div class="service-features">
-          <span class="service-feature">IT-Strategieentwicklung &amp; Roadmap-Planung</span>
-          <span class="service-feature">IT-Sicherheitsanalyse &amp; DSGVO-Compliance</span>
-          <span class="service-feature">Cloud-Readiness-Assessment</span>
-          <span class="service-feature">IT-Kostenanalyse &amp; Optimierungspotenziale</span>
-          <span class="service-feature">Herstellerneutrale Empfehlungen</span>
-        </div>
-      </div>
-      <div class="service-visual fade-in fade-in-delay-2">
-        <div class="service-visual-bg">💡</div>
-        <div class="service-visual-content">
-          <div class="icon-lg">💡</div>
-          <h3>IT-Beratung</h3>
-          <p>Strategisch denken, pragmatisch handeln – Ihr Weg in die digitale Zukunft.</p>
-        </div>
-      </div>
-    </div>
-
   </div>
-</section>
+</div>
 
-<!-- ============================================================
-     CTA
-     ============================================================ -->
+<!-- 3. IT-SERVICE & SUPPORT -->
+<div class="service-section" id="it-support">
+  <div class="container">
+    <div class="service-layout">
+      <div class="service-content fade-in">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/></svg>
+        </div>
+        <h2>IT-Service &amp; Support</h2>
+        <p>Unsere erfahrenen Techniker stehen Ihnen bei technischen Problemen zuverlässig zur Seite – per Remote-Support, telefonisch oder direkt vor Ort bei Ihnen im Unternehmen.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Helpdesk per Telefon, E-Mail und Ticket-System</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Schneller Remote-Support via Fernwartung</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Vor-Ort-Einsatz durch zertifizierte Techniker</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Einrichtung und Konfiguration von Arbeitsplätzen</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Drucker, Netzwerk, E-Mail – alles aus einer Hand</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+      <div class="fade-in fade-in-delay-2">
+        <div class="service-info-box">
+          <div class="info-box-title">Support-Kennzahlen</div>
+          <div class="info-facts">
+            <div class="info-fact">
+              <div class="info-fact-number">&lt;2h</div>
+              <div class="info-fact-label">Reaktionszeit remote</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">4h</div>
+              <div class="info-fact-label">Vor-Ort-Einsatz</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">95%</div>
+              <div class="info-fact-label">First-Contact-Resolution</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">DE</div>
+              <div class="info-fact-label">Support auf Deutsch</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 4. IT-ROLLOUT -->
+<div class="service-section alt" id="it-rollout">
+  <div class="container">
+    <div class="service-layout">
+      <div class="fade-in fade-in-delay-2" style="order:2">
+        <div class="service-info-box">
+          <div class="info-box-title">Rollout-Stärken</div>
+          <div class="info-facts">
+            <div class="info-fact">
+              <div class="info-fact-number">500+</div>
+              <div class="info-fact-label">Ausgerollte Geräte pro Jahr</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">100%</div>
+              <div class="info-fact-label">Termintreue bei Projekten</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">1</div>
+              <div class="info-fact-label">Ansprechpartner im Projekt</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">EU</div>
+              <div class="info-fact-label">DSGVO-konform beschafft</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="service-content fade-in" style="order:1">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/></svg>
+        </div>
+        <h2>IT-Rollout</h2>
+        <p>Wir planen und führen Hardware- und Software-Rollouts effizient durch – von der Beschaffung über die Konfiguration bis zur finalen Inbetriebnahme an jedem Arbeitsplatz.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Beschaffung und Konfiguration neuer Geräte</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Automatisiertes Image-Deployment via Autopilot</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Migration von Daten und Benutzereinstellungen</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Schulung der Endanwender vor Ort</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> ITAD-konforme Hardware-Entsorgung alter Geräte</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 5. IT-BERATUNG -->
+<div class="service-section" id="it-beratung">
+  <div class="container">
+    <div class="service-layout">
+      <div class="service-content fade-in">
+        <div class="service-icon-box">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"/></svg>
+        </div>
+        <h2>IT-Beratung</h2>
+        <p>Strategische IT-Beratung für nachhaltige und kosteneffiziente Entscheidungen. Wir analysieren Ihre aktuelle IT-Landschaft und entwickeln gemeinsam mit Ihnen eine zukunftssichere Roadmap.</p>
+        <ul class="service-features">
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> IT-Infrastrukturanalyse und Bewertung</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Erstellung einer mehrjährigen IT-Roadmap</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Lizenz-Audits und Kostenoptimierung</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> IT-Sicherheitsberatung und Risikoanalyse</li>
+          <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Cloud- und Digitalisierungsstrategien</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+      <div class="fade-in fade-in-delay-2">
+        <div class="service-info-box">
+          <div class="info-box-title">Beratungs-Mehrwert</div>
+          <div class="info-facts">
+            <div class="info-fact">
+              <div class="info-fact-number">10+</div>
+              <div class="info-fact-label">Jahre Beratungserfahrung</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">200+</div>
+              <div class="info-fact-label">Beratungsprojekte</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">Neutral</div>
+              <div class="info-fact-label">Herstellerunabhängig</div>
+            </div>
+            <div class="info-fact">
+              <div class="info-fact-number">ROI</div>
+              <div class="info-fact-label">Messbare Ergebnisse</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
 <section class="cta-section">
   <div class="container">
-    <div class="fade-in">
-      <h2>Bereit für den nächsten Schritt?</h2>
-      <p>Lassen Sie uns in einem kostenlosen Erstgespräch herausfinden, welcher Service am besten zu Ihrem Unternehmen passt.</p>
-      <a href="kontakt.html" class="btn btn-primary btn-lg">Kostenlos beraten lassen ↗</a>
-    </div>
+    <h2>Bereit für professionellen IT-Service?</h2>
+    <p>Kontaktieren Sie uns für eine kostenlose Erstberatung. Wir analysieren Ihre Situation und zeigen Ihnen den besten Weg.</p>
+    <a href="kontakt.html" class="btn-cta">Kostenlose Beratung anfragen <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
   </div>
 </section>
 
-<!-- ============================================================
-     FOOTER
-     ============================================================ -->
-<footer class="footer">
+<!-- FOOTER -->
+<footer>
   <div class="container">
     <div class="footer-grid">
-      <div class="footer-brand">
-        <img src="mexa.logo2.png" alt="MEXAA-IT Icon" class="footer-logo" />
-        <div class="footer-brand-name">MEXAA-IT GmbH</div>
-        <div class="footer-tagline">think for results!</div>
-        <p class="footer-desc">Ihr ganzheitlicher IT-Dienstleister für den deutschen Mittelstand.</p>
+      <div>
+        <div class="footer-logo"><img src="mexa.logo2.png" alt="MEXAA-IT GmbH" /></div>
+        <p class="footer-tagline">Ihr zuverlässiger IT-Partner für den Mittelstand.</p>
+        <div class="footer-social">
+          <a href="#" class="social-icon" aria-label="LinkedIn"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="#" class="social-icon" aria-label="Instagram"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+          <a href="#" class="social-icon" aria-label="X"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        </div>
+        <a href="#" class="footer-remote">Fernwartung starten &#8599;</a>
       </div>
-      <div class="footer-col">
-        <h4>IT-Services</h4>
-        <nav class="footer-links">
+      <div>
+        <div class="footer-col-title">IT-Services</div>
+        <div class="footer-links">
           <a href="#managed-service">Managed Service</a>
           <a href="#it-outsourcing">IT-Outsourcing</a>
           <a href="#it-support">IT-Service &amp; Support</a>
-          <a href="#it-rollout">IT-Lifecycle</a>
+          <a href="#it-rollout">IT-Rollout</a>
           <a href="#it-beratung">IT-Beratung</a>
-        </nav>
+        </div>
       </div>
-      <div class="footer-col">
-        <h4>Solutions</h4>
-        <nav class="footer-links">
+      <div>
+        <div class="footer-col-title">Solutions</div>
+        <div class="footer-links">
+          <a href="solutions.html#microsoft-365">Microsoft 365</a>
           <a href="solutions.html#azure">Azure Infrastruktur</a>
-          <a href="solutions.html#microsoft365">Microsoft 365</a>
           <a href="solutions.html#intune">Microsoft Intune</a>
           <a href="solutions.html#client-management">Client Management</a>
           <a href="solutions.html#cloud-telefonie">Cloud Telefonie</a>
           <a href="solutions.html#ki-loesungen">KI-Lösungen</a>
-          <a href="solutions.html#workshops">Workshops &amp; Schulungen</a>
-        </nav>
+          <a href="solutions.html#workshops">Workshops</a>
+        </div>
       </div>
-      <div class="footer-col">
-        <h4>Unternehmen</h4>
-        <nav class="footer-links">
+      <div>
+        <div class="footer-col-title">Unternehmen</div>
+        <div class="footer-links">
           <a href="unternehmen.html#ueber-uns">Über uns</a>
           <a href="unternehmen.html#karriere">Karriere</a>
           <a href="unternehmen.html#soziales">Soziales Engagement</a>
           <a href="kontakt.html">Kontakt</a>
-        </nav>
-      </div>
-      <div class="footer-col">
-        <h4>Social Media</h4>
-        <div class="footer-social">
-          <a href="#" class="social-link"><span class="social-icon">in</span> LinkedIn</a>
-          <a href="#" class="social-link"><span class="social-icon">📷</span> Instagram</a>
-          <a href="#" class="social-link"><span class="social-icon">𝕏</span> Twitter / X</a>
         </div>
-        <a href="kontakt.html" class="btn btn-primary" style="font-size:13px;padding:10px 18px;">Fernwartung starten ↗</a>
+      </div>
+      <div>
+        <div class="footer-col-title">Kontakt</div>
+        <div class="footer-links">
+          <a href="tel:+4989123456789">+49 89 123 456 789</a>
+          <a href="mailto:info@mexaa-it.de">info@mexaa-it.de</a>
+          <a href="kontakt.html">Anfrage senden</a>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 MEXAA-IT GmbH – Alle Rechte vorbehalten</span>
-      <nav class="footer-legal">
-        <a href="#">Impressum</a><a href="#">AGB</a>
-        <a href="#">Disclaimer</a><a href="#">Datenschutz</a><a href="#">Cookies</a>
-      </nav>
+      <span>&copy; 2026 MEXAA-IT GmbH &ndash; Alle Rechte vorbehalten</span>
+      <div class="footer-bottom-links">
+        <a href="#">Impressum</a>
+        <a href="#">AGB</a>
+        <a href="#">Disclaimer</a>
+        <a href="#">Datenschutz</a>
+        <a href="#">Cookies</a>
+      </div>
     </div>
   </div>
 </footer>
